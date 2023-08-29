@@ -1,24 +1,25 @@
 cwlVersion: v1.0
 class: CommandLineTool
-baseCommand: ["wget", "https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/Comet/comet.params"]
+baseCommand: comet
 label: comet-ms
-requirements:
-  ShellCommandRequirement: {}
+
 arguments:
-  - valueFrom: "&& /usr/local/tpp/bin/comet -Pcomet.params"
-    position: 1
-    shellQuote: false
+  - -Pcomet.params
   - valueFrom: $(inputs.Comet_in_1.nameroot)
     prefix: -N
-    position : 2
     separate: false
 inputs:
-  Comet_in_1:
+  params:
+    type: File
+    default:
+      class: File
+      path: ./comet.params
+  spectra:
     type: File
     format: "http://edamontology.org/format_3244" # mzML
     inputBinding:
       position: 4
-  Comet_in_2:
+  reference_sequence:
     type: File
     format: "http://edamontology.org/format_1929" # FASTA
     inputBinding:
@@ -26,13 +27,9 @@ inputs:
       prefix: -D
       separate: false
 
-
 outputs:
-    Comet_out_1: 
+    peptide_spectrum_match: 
       type: File
       format: "http://edamontology.org/format_3655" # pepXML
       outputBinding:
         glob: "*.pep.xml"
-
-
-      

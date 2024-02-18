@@ -1,0 +1,3 @@
+To run the workflows and generate the runtime benchmarks follow https://workflomics.readthedocs.io/en/latest/benchmarker.html
+
+The generated benchmark.json file can be uploaded to http://145.38.190.48/benchmark/visualize

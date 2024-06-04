@@ -1,5 +1,5 @@
 
-To execute the workflows and produce the runtime benchmarks, please follow the detailed instructions provided at https://workflomics.readthedocs.io/en/latest/workflomics-benchmarker/benchmarker.html.
+To execute the workflows and produce the runtime benchmarks, please follow the detailed instructions provided at https://workflomics.readthedocs.io/en/latest/workflomics-benchmarker/benchmarker-overview.html.
 
 Workflows can be run locally using the Workflomics Benchmarker Python library (https://pypi.org/project/workflomics-benchmarker/), provided that Docker or Singularity is installed and running on the host machine.
 

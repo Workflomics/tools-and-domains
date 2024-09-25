@@ -22,22 +22,18 @@
   "tool_seq_repeat": "false",
   "inputs": [
     {
-      "data_0006": ["data_3494"],
-      "format_1915": ["format_1930", "format_2182", "format_1932"]
+      "data_0006": ["data_0943"],
+      "format_1915": ["format_3244"]
     },
     {
-      "data_0006": ["data_3494"],
-      "format_1915": ["format_2572"]
+      "data_0006": ["data_2976"],
+      "format_1915": ["format_1929"]
     }
   ],
   "outputs": [
     {
-            "data_0006": [
-                "data_2600"
-            ],
-            "format_1915": [
-                "format_1915"
-            ]
-        }
+      "data_0006": ["data_3753"],
+      "format_1915": ["format_3464"]
+    }
   ]
 }

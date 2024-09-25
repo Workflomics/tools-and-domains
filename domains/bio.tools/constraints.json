@@ -9,14 +9,6 @@
       ]
     },
     {
-      "constraintid": "nuse_m",
-      "parameters": [
-        {
-          "operation_0004": ["temp_temp"]
-        }
-      ]
-    },
-    {
       "constraintid": "unique_inputs",
       "parameters": [{ "operation_0004": ["operation_0004"] }]
     }

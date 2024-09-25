@@ -526,7 +526,7 @@
                 
             ],
             
-            "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/MS_Amanda/MS_Amanda.cwl", "label": "MS_Amanda",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/MS_Amanda/MS_Amanda.cwl", "label": "MS_Amanda"},
             "id": "MS_Amanda"
         },
         {
@@ -565,7 +565,7 @@
                 "http://edamontology.org/operation_3801"
             ],
             
-            "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/MSFragger/MSFragger.cwl", "label": "MSFragger",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/MSFragger/MSFragger.cwl", "label": "MSFragger"},
             "id": "MSFragger"
         }
     ]

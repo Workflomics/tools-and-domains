@@ -1,13 +1,13 @@
 {
-  "ontology_path": "https://raw.githubusercontent.com/Workflomics/domain-annotations/main/edam.owl",
+  "ontology_path": "https://raw.githubusercontent.com/Workflomics/containers/main/domains/edam.owl",
   "ontologyPrefixIRI": "http://edamontology.org/",
   "toolsTaxonomyRoot": "operation_0004",
   "dataDimensionsTaxonomyRoots": ["data_0006", "format_1915"],
-  "tool_annotations_path": "/Users/vedran/git/Workflomics_repo/domain-annotations/genomics/bio.tools.json",
-  "constraints_path": "/Users/vedran/git/Workflomics_repo/domain-annotations/genomics/constraints.json",
+  "tool_annotations_path": "https://raw.githubusercontent.com/Workflomics/containers/main/domains/bio.tools/bio.tools.json",
+  "constraints_path": "https://raw.githubusercontent.com/Workflomics/containers/main/domains/bio.tools/constraints.json",
   "strict_tool_annotations": "true",
   "timeout_sec": "15000",
-  "solutions_dir_path": "/Users/vedran/git/Workflomics_repo/domain-annotations/genomics/dna",
+  "solutions_dir_path": ".",
   "solution_length": {
     "min": 3,
     "max": 10

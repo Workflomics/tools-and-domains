@@ -321,7 +321,7 @@
         "cwl_reference": "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/gProfiler/gProfiler.cwl"
       },
       "biotoolsID": "gprofiler",
-      "label": "g:Profiler",
+      "label": "gProfiler",
       "id": "gProfiler"
     },
     {

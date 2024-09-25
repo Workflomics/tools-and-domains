@@ -51,7 +51,7 @@
                 "http://edamontology.org/operation_3646"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/Comet/Comet.cwl"} , "label": "Comet",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/Comet/Comet.cwl"} , "label": "Comet",
             "id": "Comet"
         },
         {
@@ -106,7 +106,7 @@
                 "http://edamontology.org/operation_3649"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/PeptideProphet/PeptideProphet.cwl"} , "label": "PeptideProphet",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/PeptideProphet/PeptideProphet.cwl"} , "label": "PeptideProphet",
             "id": "PeptideProphet"
         },
         {
@@ -154,7 +154,7 @@
                 "http://edamontology.org/operation_3695"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/ProteinProphet/ProteinProphet.cwl"} , "label": "ProteinProphet",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/ProteinProphet/ProteinProphet.cwl"} , "label": "ProteinProphet",
             "id": "ProteinProphet"
         },
         {
@@ -201,7 +201,7 @@
                 "http://edamontology.org/operation_3634"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/StPeter/StPeter.cwl"} , "label": "StPeter",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/StPeter/StPeter.cwl"} , "label": "StPeter",
             "id": "StPeter"
         },
         {
@@ -237,7 +237,7 @@
                 "http://edamontology.org/operation_3627"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/mzRecal/mzRecal.cwl"} , "label": "mzRecal",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/mzRecal/mzRecal.cwl"} , "label": "mzRecal",
             "id": "mzrecal1"
         },
         {
@@ -267,7 +267,7 @@
                 "http://edamontology.org/operation_3434"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/idconvert/idconvert_to_pepXML.cwl"} , "label": "idconvert",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/idconvert/idconvert_to_pepXML.cwl"} , "label": "idconvert",
             "id": "idconvert_to_pepXML"
         },
         {
@@ -297,7 +297,7 @@
                 "http://edamontology.org/operation_3434"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/idconvert/idconvert_to_mzIdentML.cwl"} , "label": "idconvert",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/idconvert/idconvert_to_mzIdentML.cwl"} , "label": "idconvert",
             "id": "idconvert_to_mzIdentML"
         },
         {
@@ -330,7 +330,7 @@
                 "http://edamontology.org/operation_0335"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/msConvert/msConvert.cwl"} , "label": "msConvert",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/msConvert/msConvert.cwl"} , "label": "msConvert",
             "id": "msConvert"
         },
         {
@@ -376,7 +376,7 @@
                 "http://edamontology.org/operation_2436"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/GOEnrichment/GOEnrichment.cwl"} , "label": "GOEnrichment",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/GOEnrichment/GOEnrichment.cwl"} , "label": "GOEnrichment",
             "id": "GOEnrichment"
         },
         {
@@ -409,7 +409,7 @@
                 "http://edamontology.org/operation_3672"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/gProfiler/gProfiler.cwl"} , "label": "gProfiler",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/gProfiler/gProfiler.cwl"} , "label": "gProfiler",
             "id": "gProfiler"
         },
         {
@@ -455,7 +455,7 @@
                 "http://edamontology.org/operation_3767"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/XTandem/XTandem.cwl"} , "label": "XTandem",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/XTandem/XTandem.cwl"} , "label": "XTandem",
             "id": "XTandem"
         },
         {
@@ -484,7 +484,7 @@
                 "http://edamontology.org/operation_0335"
             ],
             
-            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/protXml2IdList/protXml2IdList.cwl"} , "label": "protXml2IdList",
+            "implementation" : { "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"} , "label": "protXml2IdList",
             "id": "protXml2IdList"
         },
         {
@@ -526,7 +526,7 @@
                 
             ],
             
-            "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools//.cwl", "label": "MS_Amanda",
+            "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools//.cwl", "label": "MS_Amanda",
             "id": "MS_Amanda"
         },
         {
@@ -565,7 +565,7 @@
                 "http://edamontology.org/operation_3801"
             ],
             
-            "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools//.cwl", "label": "MSFragger",
+            "cwl_reference" : "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools//.cwl", "label": "MSFragger",
             "id": "MSFragger"
         }
     ]

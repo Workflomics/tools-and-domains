@@ -21,7 +21,7 @@ inputs:
       separate: false
     default:
       class: File
-      location: https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/Comet/comet.params
+      location: https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/Comet/comet.params
   Comet_in_1:
     type: File
     format: "http://edamontology.org/format_3244" # mzML

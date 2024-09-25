@@ -22,7 +22,7 @@ inputs:
     type: File
     default:
       class: File
-      location: https://raw.githubusercontent.com/Workflomics/containers/main/cwl/tools/MSFragger/fragger.params
+      location: https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/MSFragger/fragger.params
   MSFragger_in_1:
     type: File
     format: "http://edamontology.org/format_3244" # mzML

@@ -1,6 +1,6 @@
 #!/usr/bin/env cwl-runner
 
-cwlVersion: v1.0
+cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: ["xmllint", "--xpath",  "//*[local-name()='protein']/@protein_name"]
 requirements:

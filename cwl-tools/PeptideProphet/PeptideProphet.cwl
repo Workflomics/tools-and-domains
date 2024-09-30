@@ -1,4 +1,4 @@
-cwlVersion: v1.0
+cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: ["xinteract", "-Noutput_interact.pep.xml" , "-p0.95" , "-l7" , "-PPM"]
 label: PeptideProphet.cwl

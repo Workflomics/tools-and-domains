@@ -1,6 +1,6 @@
 #!/usr/bin/env cwl-runner
 
-cwlVersion: v1.0
+cwlVersion: v1.2
 class: CommandLineTool
 label: XTandem.cwl
 baseCommand: ["mkdir", "-p", "/tmp/XTandem"]

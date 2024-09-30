@@ -1,10 +1,10 @@
 {
-  "ontology_path": "https://raw.githubusercontent.com/Workflomics/containers/main/domains/edam.owl",
+  "ontology_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/domains/edam.owl",
   "ontologyPrefixIRI": "http://edamontology.org/",
   "toolsTaxonomyRoot": "operation_0004",
   "dataDimensionsTaxonomyRoots": ["data_0006", "format_1915"],
-  "tool_annotations_path": "https://raw.githubusercontent.com/Workflomics/containers/main/domains/bio.tools/bio.tools.json",
-  "constraints_path": "https://raw.githubusercontent.com/Workflomics/containers/main/domains/bio.tools/constraints.json",
+  "tool_annotations_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/domains/bio.tools/bio.tools.json",
+  "constraints_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/domains/bio.tools/constraints.json",
   "strict_tool_annotations": "true",
   "timeout_sec": "15000",
   "solutions_dir_path": ".",

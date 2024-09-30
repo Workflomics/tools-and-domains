@@ -32,7 +32,7 @@
       "taxonomyOperations": ["http://edamontology.org/operation_3646"],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/Comet/Comet.cwl"
+        "cwl_reference": "https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/Comet/Comet.cwl"
       },
       "biotoolsID": "comet",
       "label": "Comet",
@@ -71,7 +71,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/PeptideProphet/PeptideProphet.cwl"
+        "cwl_reference": "https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/PeptideProphet/PeptideProphet.cwl"
       },
       "biotoolsID": "peptideprophet",
       "label": "PeptideProphet",
@@ -107,7 +107,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/containers/main/cwl-tools/ProteinProphet/ProteinProphet.cwl"
+        "cwl_reference": "https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/ProteinProphet/ProteinProphet.cwl"
       },
       "biotoolsID": "proteinprophet",
       "label": "ProteinProphet",

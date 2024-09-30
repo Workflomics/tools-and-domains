@@ -1,0 +1,34 @@
+[
+
+    {
+        "outputs": [
+          {
+            "format_1915": [
+              "http://edamontology.org/format_2330",
+              "http://edamontology.org/format_3654",
+              "http://edamontology.org/format_3244",
+              "http://edamontology.org/format_3651",
+              "http://edamontology.org/format_3247"
+            ],
+            "data_0006": ["http://edamontology.org/data_0943"]
+          }
+        ],
+        "inputs": [
+          {
+            "format_1915": ["http://edamontology.org/format_3712"],
+            "data_0006": ["http://edamontology.org/data_0943"]
+          }
+        ],
+        "taxonomyOperations": [
+          "http://edamontology.org/operation_3695",
+          "http://edamontology.org/operation_0335"
+        ],
+  
+        "implementation": {
+          "cwl_reference": "https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/msConvert/msConvert.cwl"
+        },
+        "biotoolsID": "msconvert",
+        "label": "msConvert",
+        "id": "msConvert"
+      }
+]

@@ -157,3 +157,4 @@ make_input_template.py
 solutions.txt
 candidate_workflow_*
 domains/proteomics/UseCases-Demo/*
+output/

@@ -1,0 +1,101 @@
+{
+  "ontology_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/domains/edam.owl",
+  "ontologyPrefixIRI": "http://edamontology.org/",
+  "toolsTaxonomyRoot": "operation_0004",
+  "dataDimensionsTaxonomyRoots": [
+    "http://edamontology.org/data_0006",
+    "http://edamontology.org/format_1915"
+  ],
+  "tool_annotations_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/domains/proteomics/tools.json",
+  "strict_tool_annotations": "true",
+  "timeout_sec": 500,
+  "solution_length": { "min": 4, "max": 5 },
+  "solutions": 1,
+  "number_of_execution_scripts": 1,
+  "number_of_generated_graphs": 1,
+  "debug_mode": "false",
+  "use_workflow_input": "all",
+  "use_all_generated_data": "one",
+  "tool_seq_repeat": "false",
+  "inputs": [
+    {
+      "http://edamontology.org/data_0006": [
+        "http://edamontology.org/data_0943"
+      ],
+      "http://edamontology.org/format_1915": [
+        "http://edamontology.org/format_3244"
+      ]
+    },
+    {
+      "http://edamontology.org/data_0006": [
+        "http://edamontology.org/data_2976"
+      ],
+      "http://edamontology.org/format_1915": [
+        "http://edamontology.org/format_1929"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "http://edamontology.org/data_0006": [
+        "http://edamontology.org/data_2048"
+      ],
+      "http://edamontology.org/format_1915": [
+        "http://edamontology.org/format_3747"
+      ]
+    }
+  ],
+  "constraints": [
+    {
+      "constraintid": "use_m",
+      "parameters": [
+        {
+          "http://edamontology.org/operation_0004": [
+            "http://edamontology.org/Comet"
+          ]
+        }
+      ]
+    },
+    {
+      "constraintid": "use_m",
+      "parameters": [
+        {
+          "http://edamontology.org/operation_0004": [
+            "http://edamontology.org/ProteinProphet"
+          ]
+        }
+      ]
+    },
+    {
+      "constraintid": "use_m",
+      "parameters": [
+        {
+          "http://edamontology.org/operation_0004": [
+            "http://edamontology.org/StPeter"
+          ]
+        }
+      ]
+    },
+    {
+      "constraintid": "not_connected_op",
+      "parameters": [
+        { "operation_0004": ["PeptideProphet"] },
+        { "operation_0004": ["PeptideProphet"] }
+      ]
+    },
+    {
+      "constraintid": "not_connected_op",
+      "parameters": [
+        { "operation_0004": ["operation_0335"] },
+        { "operation_0004": ["operation_0335"] }
+      ]
+    },
+    {
+      "constraintid": "connected_op",
+      "parameters": [
+        { "operation_0004": ["PeptideProphet"] },
+        { "operation_0004": ["ProteinProphet"] }
+      ]
+    }
+  ]
+}

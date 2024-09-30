@@ -1,0 +1,151 @@
+<svg width="1104px" height="1264px"
+ viewBox="0.00 0.00 552.05 631.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 627.6)">
+<title>candidate_workflow_1</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-627.6 548.05,-627.6 548.05,4 -4,4"/>
+<g id="clust3" class="cluster">
+<title>cluster_outputs_frame</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="173.16,-8 173.16,-88.8 301.16,-88.8 301.16,-8 173.16,-8"/>
+<text text-anchor="start" x="181.93" y="-73.2" font-family="Arial" font-weight="bold" font-size="14.00">Workflow Outputs</text>
+</g>
+<g id="clust1" class="cluster">
+<title>cluster_inputs_frame</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="55.16,-534.8 55.16,-615.6 371.16,-615.6 371.16,-534.8 55.16,-534.8"/>
+<text text-anchor="start" x="163.38" y="-600" font-family="Arial" font-weight="bold" font-size="14.00">Workflow Inputs</text>
+</g>
+<!-- &quot;http://edamontology.org/data_0943,http://edamontology.org/format_3244[MemT0.0]&quot; -->
+<g id="node1" class="node">
+<title>&quot;http://edamontology.org/data_0943,http://edamontology.org/format_3244[MemT0.0]&quot;</title>
+<polygon fill="#6cf1ff" stroke="black" points="363.61,-582.8 238.71,-582.8 238.71,-542.8 363.61,-542.8 363.61,-582.8"/>
+<text text-anchor="start" x="246.93" y="-565.4" font-family="Arial" font-size="16.00">Mass spectrum</text>
+<text text-anchor="start" x="279.39" y="-549.4" font-family="Arial" font-weight="bold" font-style="italic" font-size="16.00">mzML</text>
+</g>
+<!-- &quot;http://edamontology.org/Comet_Tool1&quot; -->
+<g id="node3" class="node">
+<title>&quot;http://edamontology.org/Comet_Tool1&quot;</title>
+<polygon fill="#f8ffb0" stroke="black" points="289.77,-478.8 226.55,-478.8 226.55,-442.8 289.77,-442.8 289.77,-478.8"/>
+<text text-anchor="start" x="234.6" y="-457" font-family="Arial" font-weight="bold" font-size="16.00">Comet</text>
+</g>
+<!-- &quot;http://edamontology.org/data_0943,http://edamontology.org/format_3244[MemT0.0]&quot;&#45;&gt;&quot;http://edamontology.org/Comet_Tool1&quot; -->
+<g id="edge4" class="edge">
+<title>&quot;http://edamontology.org/data_0943,http://edamontology.org/format_3244[MemT0.0]&quot;&#45;&gt;&quot;http://edamontology.org/Comet_Tool1&quot;</title>
+<path fill="none" stroke="black" d="M278.64,-542.43C273.83,-537.19 269.29,-531.18 266.27,-524.8 261.08,-513.85 258.85,-500.69 258,-489.24"/>
+<polygon fill="black" stroke="black" points="261.48,-488.75 257.55,-478.91 254.49,-489.05 261.48,-488.75"/>
+<text text-anchor="start" x="266.16" y="-513.2" font-family="Arial" font-size="14.00">Mass spectrum</text>
+<text text-anchor="start" x="294.55" y="-499.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">mzML</text>
+</g>
+<!-- &quot;http://edamontology.org/PeptideProphet_Tool2&quot; -->
+<g id="node4" class="node">
+<title>&quot;http://edamontology.org/PeptideProphet_Tool2&quot;</title>
+<polygon fill="#f8ffb0" stroke="black" points="245.42,-378.8 118.89,-378.8 118.89,-342.8 245.42,-342.8 245.42,-378.8"/>
+<text text-anchor="start" x="127.03" y="-357" font-family="Arial" font-weight="bold" font-size="16.00">PeptideProphet</text>
+</g>
+<!-- &quot;http://edamontology.org/data_0943,http://edamontology.org/format_3244[MemT0.0]&quot;&#45;&gt;&quot;http://edamontology.org/PeptideProphet_Tool2&quot; -->
+<g id="edge3" class="edge">
+<title>&quot;http://edamontology.org/data_0943,http://edamontology.org/format_3244[MemT0.0]&quot;&#45;&gt;&quot;http://edamontology.org/PeptideProphet_Tool2&quot;</title>
+<path fill="none" stroke="black" d="M344.45,-542.78C351.15,-537.91 357.16,-531.96 361.16,-524.8 367.22,-513.93 366.34,-508.11 361.16,-496.8 356.05,-485.66 347.13,-488.95 340.27,-478.8 318.67,-446.89 340.3,-423.11 312.16,-396.8 296.68,-382.33 275.86,-373.72 255.42,-368.63"/>
+<polygon fill="black" stroke="black" points="255.97,-365.17 245.45,-366.41 254.44,-372 255.97,-365.17"/>
+<text text-anchor="start" x="340.16" y="-463.2" font-family="Arial" font-size="14.00">Mass spectrum</text>
+<text text-anchor="start" x="368.55" y="-449.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">mzML</text>
+</g>
+<!-- &quot;http://edamontology.org/StPeter_Tool4&quot; -->
+<g id="node6" class="node">
+<title>&quot;http://edamontology.org/StPeter_Tool4&quot;</title>
+<polygon fill="#f8ffb0" stroke="black" points="272.01,-178.8 202.31,-178.8 202.31,-142.8 272.01,-142.8 272.01,-178.8"/>
+<text text-anchor="start" x="210.48" y="-157" font-family="Arial" font-weight="bold" font-size="16.00">StPeter</text>
+</g>
+<!-- &quot;http://edamontology.org/data_0943,http://edamontology.org/format_3244[MemT0.0]&quot;&#45;&gt;&quot;http://edamontology.org/StPeter_Tool4&quot; -->
+<g id="edge2" class="edge">
+<title>&quot;http://edamontology.org/data_0943,http://edamontology.org/format_3244[MemT0.0]&quot;&#45;&gt;&quot;http://edamontology.org/StPeter_Tool4&quot;</title>
+<path fill="none" stroke="black" d="M363.5,-546.01C403.94,-531.6 449.16,-505.68 449.16,-461.8 449.16,-461.8 449.16,-461.8 449.16,-259.8 449.16,-186.97 344.8,-168.1 282.52,-163.32"/>
+<polygon fill="black" stroke="black" points="282.38,-159.8 272.17,-162.62 281.91,-166.78 282.38,-159.8"/>
+<text text-anchor="start" x="449.16" y="-363.2" font-family="Arial" font-size="14.00">Mass spectrum</text>
+<text text-anchor="start" x="477.55" y="-349.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">mzML</text>
+</g>
+<!-- &quot;http://edamontology.org/data_2976_plain,http://edamontology.org/format_1929[MemT0.1]&quot; -->
+<g id="node2" class="node">
+<title>&quot;http://edamontology.org/data_2976_plain,http://edamontology.org/format_1929[MemT0.1]&quot;</title>
+<polygon fill="#6cf1ff" stroke="black" points="203.65,-582.8 62.67,-582.8 62.67,-542.8 203.65,-542.8 203.65,-582.8"/>
+<text text-anchor="start" x="70.91" y="-565.4" font-family="Arial" font-size="16.00">Protein sequence</text>
+<text text-anchor="start" x="107.38" y="-549.4" font-family="Arial" font-weight="bold" font-style="italic" font-size="16.00">FASTA</text>
+</g>
+<!-- &quot;http://edamontology.org/data_2976_plain,http://edamontology.org/format_1929[MemT0.1]&quot;&#45;&gt;&quot;http://edamontology.org/data_0943,http://edamontology.org/format_3244[MemT0.0]&quot; -->
+<!-- &quot;http://edamontology.org/data_2976_plain,http://edamontology.org/format_1929[MemT0.1]&quot;&#45;&gt;&quot;http://edamontology.org/Comet_Tool1&quot; -->
+<g id="edge7" class="edge">
+<title>&quot;http://edamontology.org/data_2976_plain,http://edamontology.org/format_1929[MemT0.1]&quot;&#45;&gt;&quot;http://edamontology.org/Comet_Tool1&quot;</title>
+<path fill="none" stroke="black" d="M131.62,-542.62C131.54,-528.24 133.91,-509 145.23,-496.8 166.47,-473.9 183.42,-488.33 213.16,-478.8 214.37,-478.41 215.59,-478.01 216.82,-477.6"/>
+<polygon fill="black" stroke="black" points="218.05,-480.88 226.34,-474.28 215.75,-474.27 218.05,-480.88"/>
+<text text-anchor="start" x="146.16" y="-513.2" font-family="Arial" font-size="14.00">Protein sequence</text>
+<text text-anchor="start" x="178.07" y="-499.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">FASTA</text>
+</g>
+<!-- &quot;http://edamontology.org/data_2976_plain,http://edamontology.org/format_1929[MemT0.1]&quot;&#45;&gt;&quot;http://edamontology.org/PeptideProphet_Tool2&quot; -->
+<g id="edge6" class="edge">
+<title>&quot;http://edamontology.org/data_2976_plain,http://edamontology.org/format_1929[MemT0.1]&quot;&#45;&gt;&quot;http://edamontology.org/PeptideProphet_Tool2&quot;</title>
+<path fill="none" stroke="black" d="M122.63,-542.7C110.87,-518.73 95.11,-476.65 108.23,-442.8 116.98,-420.22 135.29,-400.09 151.49,-385.54"/>
+<polygon fill="black" stroke="black" points="153.95,-388.04 159.23,-378.86 149.37,-382.74 153.95,-388.04"/>
+<text text-anchor="start" x="109.16" y="-463.2" font-family="Arial" font-size="14.00">Protein sequence</text>
+<text text-anchor="start" x="141.07" y="-449.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">FASTA</text>
+</g>
+<!-- &quot;http://edamontology.org/ProteinProphet_Tool3&quot; -->
+<g id="node5" class="node">
+<title>&quot;http://edamontology.org/ProteinProphet_Tool3&quot;</title>
+<polygon fill="#f8ffb0" stroke="black" points="154.36,-278.8 31.96,-278.8 31.96,-242.8 154.36,-242.8 154.36,-278.8"/>
+<text text-anchor="start" x="39.81" y="-257" font-family="Arial" font-weight="bold" font-size="16.00">ProteinProphet</text>
+</g>
+<!-- &quot;http://edamontology.org/data_2976_plain,http://edamontology.org/format_1929[MemT0.1]&quot;&#45;&gt;&quot;http://edamontology.org/ProteinProphet_Tool3&quot; -->
+<g id="edge5" class="edge">
+<title>&quot;http://edamontology.org/data_2976_plain,http://edamontology.org/format_1929[MemT0.1]&quot;&#45;&gt;&quot;http://edamontology.org/ProteinProphet_Tool3&quot;</title>
+<path fill="none" stroke="black" d="M105.59,-542.6C74.4,-519.02 25.34,-475.81 5.23,-424.8 -15.13,-373.15 31.97,-317.03 64.79,-285.96"/>
+<polygon fill="black" stroke="black" points="67.38,-288.33 72.37,-278.98 62.64,-283.18 67.38,-288.33"/>
+<text text-anchor="start" x="6.16" y="-413.2" font-family="Arial" font-size="14.00">Protein sequence</text>
+<text text-anchor="start" x="38.07" y="-399.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">FASTA</text>
+</g>
+<!-- &quot;http://edamontology.org/Comet_Tool1&quot;&#45;&gt;&quot;http://edamontology.org/PeptideProphet_Tool2&quot; -->
+<g id="edge8" class="edge">
+<title>&quot;http://edamontology.org/Comet_Tool1&quot;&#45;&gt;&quot;http://edamontology.org/PeptideProphet_Tool2&quot;</title>
+<path fill="none" stroke="black" d="M226.28,-446.83C207.02,-438.67 185.69,-428.94 183.01,-424.8 176.32,-414.46 175.35,-401.04 176.36,-389.24"/>
+<polygon fill="black" stroke="black" points="179.88,-389.37 177.74,-379 172.94,-388.44 179.88,-389.37"/>
+<text text-anchor="start" x="182.16" y="-413.2" font-family="Arial" font-size="14.00">Peptide identification</text>
+<text text-anchor="start" x="220.67" y="-399.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">pepXML</text>
+</g>
+<!-- &quot;http://edamontology.org/PeptideProphet_Tool2&quot;&#45;&gt;&quot;http://edamontology.org/ProteinProphet_Tool3&quot; -->
+<g id="edge10" class="edge">
+<title>&quot;http://edamontology.org/PeptideProphet_Tool2&quot;&#45;&gt;&quot;http://edamontology.org/ProteinProphet_Tool3&quot;</title>
+<path fill="none" stroke="black" d="M118.75,-345.37C109.02,-340.41 100.17,-333.75 94.01,-324.8 86.91,-314.49 85.99,-300.8 87.14,-288.82"/>
+<polygon fill="black" stroke="black" points="90.61,-289.26 88.58,-278.86 83.68,-288.25 90.61,-289.26"/>
+<text text-anchor="start" x="94.16" y="-313.2" font-family="Arial" font-size="14.00">Peptide identification</text>
+<text text-anchor="start" x="132.67" y="-299.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">pepXML</text>
+</g>
+<!-- &quot;http://edamontology.org/PeptideProphet_Tool2&quot;&#45;&gt;&quot;http://edamontology.org/StPeter_Tool4&quot; -->
+<g id="edge9" class="edge">
+<title>&quot;http://edamontology.org/PeptideProphet_Tool2&quot;&#45;&gt;&quot;http://edamontology.org/StPeter_Tool4&quot;</title>
+<path fill="none" stroke="black" d="M208.37,-342.73C214.18,-337.67 219.65,-331.62 223.16,-324.8 245.43,-281.49 244.15,-223.09 240.87,-189.23"/>
+<polygon fill="black" stroke="black" points="244.34,-188.71 239.77,-179.15 237.38,-189.47 244.34,-188.71"/>
+<text text-anchor="start" x="242.16" y="-263.2" font-family="Arial" font-size="14.00">Peptide identification</text>
+<text text-anchor="start" x="280.67" y="-249.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">pepXML</text>
+</g>
+<!-- &quot;http://edamontology.org/ProteinProphet_Tool3&quot;&#45;&gt;&quot;http://edamontology.org/StPeter_Tool4&quot; -->
+<g id="edge11" class="edge">
+<title>&quot;http://edamontology.org/ProteinProphet_Tool3&quot;&#45;&gt;&quot;http://edamontology.org/StPeter_Tool4&quot;</title>
+<path fill="none" stroke="black" d="M88.16,-242.67C85.24,-228.8 83.86,-209.55 94.01,-196.8 106.21,-181.48 155.02,-171.96 192.28,-166.79"/>
+<polygon fill="black" stroke="black" points="192.99,-170.23 202.45,-165.45 192.08,-163.29 192.99,-170.23"/>
+<text text-anchor="start" x="94.16" y="-213.2" font-family="Arial" font-size="14.00">Peptide identification</text>
+<text text-anchor="start" x="132.29" y="-199.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">protXML</text>
+</g>
+<!-- &quot;http://edamontology.org/data_0896_plain,http://edamontology.org/format_3747[MemT4.0]&quot; -->
+<g id="node7" class="node">
+<title>&quot;http://edamontology.org/data_0896_plain,http://edamontology.org/format_3747[MemT4.0]&quot;</title>
+<polygon fill="#6cf1ff" stroke="black" points="293.56,-56 180.75,-56 180.75,-16 293.56,-16 293.56,-56"/>
+<text text-anchor="start" x="188.71" y="-38.6" font-family="Arial" font-size="16.00">Protein report</text>
+<text text-anchor="start" x="206.93" y="-22.6" font-family="Arial" font-weight="bold" font-style="italic" font-size="16.00">protXML</text>
+</g>
+<!-- &quot;http://edamontology.org/StPeter_Tool4&quot;&#45;&gt;&quot;http://edamontology.org/data_0896_plain,http://edamontology.org/format_3747[MemT4.0]&quot; -->
+<g id="edge12" class="edge">
+<title>&quot;http://edamontology.org/StPeter_Tool4&quot;&#45;&gt;&quot;http://edamontology.org/data_0896_plain,http://edamontology.org/format_3747[MemT4.0]&quot;</title>
+<path fill="none" stroke="black" d="M237.16,-142.73C237.16,-123.07 237.16,-90.42 237.16,-66.6"/>
+<polygon fill="black" stroke="black" points="240.66,-66.36 237.16,-56.36 233.66,-66.36 240.66,-66.36"/>
+<text text-anchor="start" x="237.16" y="-113.2" font-family="Arial" font-size="14.00">Protein report</text>
+<text text-anchor="start" x="253.11" y="-99.2" font-family="Arial" font-weight="bold" font-style="italic" font-size="14.00">protXML</text>
+</g>
+</g>
+</svg>

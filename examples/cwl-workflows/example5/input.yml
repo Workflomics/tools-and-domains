@@ -9,8 +9,8 @@ input2:
 input3:
   class: File
   format: http://edamontology.org/format_2196
-  path: /data/escience/projects/bakeoff/Workflomics/containers/data/inputs/go.obo
+  path: /data/escience/projects/bakeoff/Workflomics/tools-and-domains/data/inputs/go.obo
 input4:
   class: File
   format: http://edamontology.org/format_3475
-  path: /data/escience/projects/bakeoff/Workflomics/containers/data/inputs/goa_human.gaf
+  path: /data/escience/projects/bakeoff/Workflomics/tools-and-domains/data/inputs/goa_human.gaf

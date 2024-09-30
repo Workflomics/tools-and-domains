@@ -21,7 +21,7 @@ steps:
       Comet_in_2: input2
     out: [Comet_out_1]
   PeptideProphet2:
-    run: https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/PeptideProphet/PeptideProphet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/PeptideProphet/PeptideProphet.cwl
     in:
       PeptideProphet_in_1: Comet1/Comet_out_1
       # Manual edit: PeptideProphet_in_2: input1
@@ -30,14 +30,14 @@ steps:
       PeptideProphet_in_3: input2
     out: [PeptideProphet_out_1]
   ProteinProphet3:
-    run: https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/ProteinProphet/ProteinProphet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/ProteinProphet/ProteinProphet.cwl
     in:
       ProteinProphet_in_1: PeptideProphet2/PeptideProphet_out_1
 # Manual edit: ProteinProphet_in_2: input2 (FASTA)
       ProteinProphet_in_2: input2
     out: [ProteinProphet_out_1, ProteinProphet_out_2]
   protXml2IdList4:
-    run: https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/protXml2IdList/protXml2IdList.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/protXml2IdList/protXml2IdList.cwl
     in:
       protXml2IdList_in_1: ProteinProphet3/ProteinProphet_out_1
     out: [protXml2IdList_out_1]

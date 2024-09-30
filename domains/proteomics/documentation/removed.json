@@ -25,7 +25,7 @@
         ],
   
         "implementation": {
-          "cwl_reference": "https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/msConvert/msConvert.cwl"
+          "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/msConvert/msConvert.cwl"
         },
         "biotoolsID": "msconvert",
         "label": "msConvert",

@@ -15,31 +15,31 @@ inputs:
     format: "http://edamontology.org/format_1929" # FASTA
 steps:
   Comet1:
-    run:  https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/Comet/Comet.cwl
+    run:  https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/Comet/Comet.cwl
     in:
       Comet_in_1: input1
       Comet_in_2: input2
     out: [Comet_out_1]
   idconvert2:
-  # Manual edit: https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/idconvert/idconvert.cwl -> https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/idconvert/idconvert_to_mzIdentML.cwl
-    run: https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/idconvert/idconvert_to_mzIdentML.cwl
+  # Manual edit: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/idconvert/idconvert.cwl -> https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/idconvert/idconvert_to_mzIdentML.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/idconvert/idconvert_to_mzIdentML.cwl
     in:
       idconvert_in_1: Comet1/Comet_out_1
     out: [idconvert_out_1]
   mzRecal3:
-    run: https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/mzRecal/mzRecal.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/mzRecal/mzRecal.cwl
     in:
       mzRecal_in_1: input1
       mzRecal_in_2: idconvert2/idconvert_out_1
     out: [mzRecal_out_1]
   Comet4:
-    run: https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/Comet/Comet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/Comet/Comet.cwl
     in:
       Comet_in_1: mzRecal3/mzRecal_out_1
       Comet_in_2: input2
     out: [Comet_out_1]
   PeptideProphet5:
-    run: https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/PeptideProphet/PeptideProphet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/PeptideProphet/PeptideProphet.cwl
     in:
       PeptideProphet_in_1: Comet4/Comet_out_1
        # Manual edit: PeptideProphet_in_2: mzRecal3/mzRecal_out_1
@@ -49,7 +49,7 @@ steps:
 
     out: [PeptideProphet_out_1]
   ProteinProphet6:
-    run: https://github.com/Workflomics/tools-and-domains/blob/main/cwl-tools/ProteinProphet/ProteinProphet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/ProteinProphet/ProteinProphet.cwl
     in:
       ProteinProphet_in_1: PeptideProphet5/PeptideProphet_out_1
       # Manual edit: ProteinProphet_in_2: input2

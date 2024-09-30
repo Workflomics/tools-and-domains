@@ -1,0 +1,199 @@
+[
+   {
+      "workflowName": "workflow_1.cwl",
+      "executor": "cwltool 3.1.20240708091337",
+      "runID": "39eddf71ea1700672984653",
+      "inputs": {
+         "input_1": {
+            "filename": "2021-10-8_Ecoli.mzML"
+         },
+         "input_2": {
+            "filename": "up00000062.fasta"
+         }
+      },
+      "benchmarks": [
+         {
+            "description": "Status for each step in the workflow",
+            "title": "Status",
+            "unit": "\u2713 or \u2717",
+            "aggregate_value": {
+               "value": "(0/3) \u2717",
+               "desirability": -1
+            },
+            "steps": [
+               {
+                  "label": "Comet",
+                  "value": "-",
+                  "desirability": 0
+               },
+               {
+                  "label": "PeptideProphet",
+                  "value": "-",
+                  "desirability": 0
+               },
+               {
+                  "label": "ProteinProphet",
+                  "value": "-",
+                  "desirability": 0
+               }
+            ]
+         },
+         {
+            "description": "Execution time for each step in the workflow",
+            "title": "Execution time",
+            "unit": "seconds",
+            "aggregate_value": {
+               "value": 0,
+               "desirability": -1
+            },
+            "steps": [
+               {
+                  "label": "Comet",
+                  "value": "-",
+                  "desirability": 0
+               },
+               {
+                  "label": "PeptideProphet",
+                  "value": "-",
+                  "desirability": 0
+               },
+               {
+                  "label": "ProteinProphet",
+                  "value": "-",
+                  "desirability": 0
+               }
+            ]
+         },
+         {
+            "description": "Memory usage for each step in the workflow",
+            "title": "Memory usage",
+            "unit": "MB",
+            "aggregate_value": {
+               "value": 0,
+               "desirability": -1
+            },
+            "steps": [
+               {
+                  "label": "Comet",
+                  "value": "-",
+                  "desirability": 0
+               },
+               {
+                  "label": "PeptideProphet",
+                  "value": "-",
+                  "desirability": 0
+               },
+               {
+                  "label": "ProteinProphet",
+                  "value": "-",
+                  "desirability": 0
+               }
+            ]
+         },
+         {
+            "description": "Warnings for each step in the workflow",
+            "title": "Warnings",
+            "unit": "count",
+            "aggregate_value": {
+               "value": 0,
+               "desirability": 0
+            },
+            "steps": [
+               {
+                  "label": "Comet",
+                  "value": 0,
+                  "desirability": 0
+               },
+               {
+                  "label": "PeptideProphet",
+                  "value": 0,
+                  "desirability": 0
+               },
+               {
+                  "label": "ProteinProphet",
+                  "value": 0,
+                  "desirability": 0
+               }
+            ]
+         },
+         {
+            "description": "Errors for each step in the workflow",
+            "title": "Errors",
+            "unit": "count",
+            "aggregate_value": {
+               "value": 0,
+               "desirability": 0
+            },
+            "steps": [
+               {
+                  "label": "Comet",
+                  "value": 0,
+                  "desirability": 0
+               },
+               {
+                  "label": "PeptideProphet",
+                  "value": 0,
+                  "desirability": 0
+               },
+               {
+                  "label": "ProteinProphet",
+                  "value": 0,
+                  "desirability": 0
+               }
+            ]
+         },
+         {
+            "description": "The number of identified proteins.",
+            "title": "Proteins",
+            "unit": "count",
+            "aggregate_value": {
+               "value": 0,
+               "desirability": -1
+            },
+            "steps": [
+               {
+                  "label": "Comet",
+                  "value": "-",
+                  "desirability": 0
+               },
+               {
+                  "label": "PeptideProphet",
+                  "value": "-",
+                  "desirability": 0
+               },
+               {
+                  "label": "ProteinProphet",
+                  "value": "-",
+                  "desirability": 0
+               }
+            ]
+         },
+         {
+            "description": "The number of identified significantly enriched unique GO-terms.",
+            "title": "GO-terms",
+            "unit": "count",
+            "aggregate_value": {
+               "value": 0,
+               "desirability": -1
+            },
+            "steps": [
+               {
+                  "label": "Comet",
+                  "value": "-",
+                  "desirability": 0
+               },
+               {
+                  "label": "PeptideProphet",
+                  "value": "-",
+                  "desirability": 0
+               },
+               {
+                  "label": "ProteinProphet",
+                  "value": "-",
+                  "desirability": 0
+               }
+            ]
+         }
+      ]
+   }
+]

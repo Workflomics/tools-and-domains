@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cwltool ../sage.cwl ./input.yml
+cwltool --outdir output ../sage.cwl ./input.yml

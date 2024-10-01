@@ -5,13 +5,19 @@ baseCommand: ["/bin/bash", "-c"]
 arguments:
   - valueFrom: >
       "sage -o /data/output -f $(inputs.Sage_in_2.path) \
-      $(inputs.Configuration.path) $(inputs.Sage_in_1.path)"
+      $(inputs.Configuration.path) $(inputs.Sage_in_1.path) && \
+      /data/sage_TSV_to_mzIdentML.sh /data/output/results.sage.tsv"
     shellQuote: false
 requirements:
   ShellCommandRequirement: {}
   DockerRequirement:
     dockerPull: sage:latest
     dockerOutputDirectory: /data
+  InitialWorkDirRequirement:
+    listing:
+      - class: File
+        location: sage_TSV_to_mzIdentML.sh
+        basename: sage_TSV_to_mzIdentML.sh
 
 inputs:
   Sage_in_1:
@@ -31,6 +37,6 @@ inputs:
 outputs:
   Sage_out:
     type: File
-    format: "http://edamontology.org/format_3475" # TSV    3247" # mzIdentML
+    format: "http://edamontology.org/format_3247" # mzIdentML
     outputBinding:
-      glob: /data/output/results.sage.tsv
+      glob: /data/output/results.sage.mzid

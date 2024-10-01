@@ -4,8 +4,8 @@ class: CommandLineTool
 baseCommand: ["/bin/bash", "-c"]
 arguments:
   - valueFrom: >
-      "sage -o /data/output -f $(inputs.Sage_in_1.path) \
-      $(inputs.Configuration.path) $(inputs.Sage_in_2.path)"
+      "sage -o /data/output -f $(inputs.Sage_in_2.path) \
+      $(inputs.Configuration.path) $(inputs.Sage_in_1.path)"
     shellQuote: false
 requirements:
   ShellCommandRequirement: {}
@@ -16,20 +16,17 @@ requirements:
 inputs:
   Sage_in_1:
     type: File
-    format: "http://edamontology.org/format_1929" # FASTA
-    inputBinding:
-      position: 1
-      prefix: -f
+    format: "http://edamontology.org/format_3244" # mzML
   Sage_in_2:
     type: File
-    format: "http://edamontology.org/format_3244" # mzML
-    inputBinding:
-      position: 3
+    format: "http://edamontology.org/format_1929" # FASTA
   Configuration:
     type: File
     format: "http://edamontology.org/format_3464" # JSON
-    inputBinding:
-      position: 2
+    default:
+      class: File
+      format: "http://edamontology.org/format_3464" # JSON
+      location: config.json
 
 outputs:
   Sage_out:

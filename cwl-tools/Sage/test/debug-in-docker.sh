@@ -2,7 +2,7 @@
 
 docker run -it --rm \
   --entrypoint /bin/bash \
-  --mount=type=bind,source=/Users/peter/repos/bakeoff/containers/cwl-tools/Sage/data,target=/data/ \
+  --mount=type=bind,source=/Users/peter/repos/bakeoff/containers/cwl-tools/Sage/test/data,target=/data/ \
   sage:latest 
 
 # sage -o /data/output -f /data/small.fasta /data/config.json /data/small.mzML

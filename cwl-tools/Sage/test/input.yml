@@ -1,12 +1,8 @@
 Sage_in_1:
   class: File
-  format: http://edamontology.org/format_1929
-  path: /Users/peter/repos/bakeoff/containers/cwl-tools/Sage/data/small.fasta
+  format: http://edamontology.org/format_3244
+  path: https://raw.githubusercontent.com/Workflomics/DemoKit/refs/heads/main/data/inputs/small.mzML
 Sage_in_2:
   class: File
-  format: http://edamontology.org/format_3244
-  path: /Users/peter/repos/bakeoff/containers/cwl-tools/Sage/data/small.mzML
-Configuration:
-  class: File
-  format: http://edamontology.org/format_3464
-  path: /Users/peter/repos/bakeoff/containers/cwl-tools/Sage/data/config.json
+  format: http://edamontology.org/format_1929
+  path: https://raw.githubusercontent.com/Workflomics/DemoKit/refs/heads/main/data/inputs/small.fasta

@@ -29,12 +29,12 @@ inputs:
     type: File
     default:
       class: File
-      location: https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/XTandem/tandem.params
+      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/docker/cwl/tools/XTandem/tandem.params
   Taxonomy:
     type: File
     default:
       class: File
-      location: https://raw.githubusercontent.com/Workflomics/containers/docker/cwl/tools/XTandem/taxonomy.xml
+      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/docker/cwl/tools/XTandem/taxonomy.xml
     
   XTandem_in_1:
     type: File

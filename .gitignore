@@ -157,4 +157,8 @@ make_input_template.py
 solutions.txt
 candidate_workflow_*
 domains/proteomics/UseCases-Demo/*
+
+# Exclude generated workflow outputs
+examples/cwl-workflows/example*/workflow_*_output/
+examples/cwl-workflows/example*/benchmarks.json
 **/test/output/

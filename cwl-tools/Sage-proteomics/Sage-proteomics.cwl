@@ -32,7 +32,7 @@ inputs:
     default:
       class: File
       format: "http://edamontology.org/format_3464" # JSON
-      location: config.json
+      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/Sage-proteomics/config.json
 
 outputs:
   Sage_out:

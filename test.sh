@@ -32,17 +32,19 @@ for tool_dir in "$base_dir"/*/; do
     fi
 done
 
-# Print a summary of test results
+# Print missing test script count
 if [ $missing_script_count -gt 0 ]; then
     echo "❗ $missing_script_count tools did not have a test script"
 fi
 
-# Print a summary of tests that failed
+# Print a summary of test results
 if [ $failed_tests_count -eq 0 ]; then
     echo "✅ $passed_tests_count tests passed successfully"
+    exit 0
 else
     echo "The following tests failed:"
     for test in "${failed_tests[@]}"; do
         echo "🚨 $test"
     done
+    exit 1
 fi

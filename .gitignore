@@ -161,3 +161,4 @@ domains/proteomics/UseCases-Demo/*
 # Exclude generated workflow outputs
 examples/cwl-workflows/example*/workflow_*_output/
 examples/cwl-workflows/example*/benchmarks.json
+**/test/output/

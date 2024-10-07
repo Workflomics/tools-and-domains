@@ -1,4 +1,4 @@
-{
+[{
     "outputs": [
       {
         "format_1915": ["http://edamontology.org/format_3655"],
@@ -35,4 +35,4 @@
     "biotoolsID": "comet",
     "label": "Comet",
     "id": "Comet"
-  }
+  }]

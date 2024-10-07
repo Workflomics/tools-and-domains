@@ -15,13 +15,13 @@ inputs:
     format: "http://edamontology.org/format_1929" # FASTA
 steps:
   XTandem1:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/XTandem/XTandem.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/xtandem/xtandem.cwl
     in:
       XTandem_in_1: input1
       XTandem_in_2: input2
     out: [XTandem_out_1]
   mzRecal2:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/mzRecal/mzRecal.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/mzrecal/mzrecal.cwl
     in:
       mzRecal_in_1: input1
       mzRecal_in_2: XTandem1/XTandem_out_1
@@ -54,7 +54,7 @@ steps:
       protXml2IdList_in_1: ProteinProphet5/ProteinProphet_out_1
     out: [protXml2IdList_out_1]
   gProfiler7:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/gProfiler/gProfiler.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/gprofiler/gprofiler.cwl
     in:
       gProfiler_in_1: protXml2IdList6/protXml2IdList_out_1
     out: [gProfiler_out_1]

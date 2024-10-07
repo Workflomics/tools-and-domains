@@ -2,7 +2,7 @@
 
 cwlVersion: v1.0
 class: CommandLineTool
-label: idconvert.cwl
+label: idconvert
 
 baseCommand: "/usr/local/tpp/bin/idconvert"
 requirements:

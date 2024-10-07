@@ -1,0 +1,28 @@
+[
+  {
+    "outputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3244"],
+        "data_0006": ["http://edamontology.org/data_0943"]
+      }
+    ],
+    "inputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3244"],
+        "data_0006": ["http://edamontology.org/data_0943"]
+      },
+      {
+        "format_1915": ["http://edamontology.org/format_3247"],
+        "data_0006": ["http://edamontology.org/data_0945"]
+      }
+    ],
+    "taxonomyOperations": ["http://edamontology.org/operation_3627"],
+
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/mzrecal/mzrecal.cwl"
+    },
+    "biotoolsID": "mzrecal",
+    "label": "mzRecal",
+    "id": "mzrecal"
+  }
+]

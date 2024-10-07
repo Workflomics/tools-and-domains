@@ -27,7 +27,7 @@ steps:
       idconvert_in_1: Comet1/Comet_out_1
     out: [idconvert_out_1]
   mzRecal3:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/mzRecal/mzRecal.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/mzrecal/mzrecal.cwl
     in:
       mzRecal_in_1: input1
       mzRecal_in_2: idconvert2/idconvert_out_1

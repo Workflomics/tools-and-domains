@@ -1,4 +1,5 @@
-{
+[
+  {
     "outputs": [
       {
         "format_1915": ["http://edamontology.org/format_3655"],
@@ -37,3 +38,4 @@
     "label": "PeptideProphet",
     "id": "PeptideProphet"
   }
+]

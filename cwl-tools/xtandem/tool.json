@@ -1,0 +1,40 @@
+{
+    "outputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3655"],
+        "data_0006": ["http://edamontology.org/data_0945"]
+      }
+    ],
+    "inputs": [
+      {
+        "format_1915": [
+          "http://edamontology.org/format_3652",
+          "http://edamontology.org/format_3653",
+          "http://edamontology.org/format_3654",
+          "http://edamontology.org/format_3834",
+          "http://edamontology.org/format_3651",
+          "http://edamontology.org/format_3711",
+          "http://edamontology.org/format_3244"
+        ],
+        "data_0006": ["http://edamontology.org/data_0943"]
+      },
+      {
+        "format_1915": ["http://edamontology.org/format_1929"],
+        "data_0006": ["http://edamontology.org/data_2976"]
+      }
+    ],
+    "taxonomyOperations": [
+      "http://edamontology.org/operation_3647",
+      "http://edamontology.org/operation_3645",
+      "http://edamontology.org/operation_3631",
+      "http://edamontology.org/operation_3646",
+      "http://edamontology.org/operation_3767"
+    ],
+
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/xtandem/xtandem.cwl"
+    },
+    "biotoolsID": "xtandem",
+    "label": "XTandem",
+    "id": "XTandem"
+  }

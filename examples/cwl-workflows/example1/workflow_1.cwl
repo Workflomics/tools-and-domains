@@ -28,7 +28,7 @@ steps:
       PeptideProphet_in_3: input_2
     out: [PeptideProphet_out_1, PeptideProphet_out_2]
   ProteinProphet_03:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/ProteinProphet/ProteinProphet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/proteinprophet/proteinprophet.cwl
     in:
       ProteinProphet_in_1: PeptideProphet_02/PeptideProphet_out_1
       ProteinProphet_in_2: input_2

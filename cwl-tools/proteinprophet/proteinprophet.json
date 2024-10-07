@@ -1,0 +1,36 @@
+{
+    "outputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3747"],
+        "data_0006": ["http://edamontology.org/data_0945"]
+      },
+      {
+        "format_1915": ["http://edamontology.org/format_3475"],
+        "data_0006": ["http://edamontology.org/data_0945"]
+      }
+    ],
+    "inputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3655"],
+        "data_0006": ["http://edamontology.org/data_0945"]
+      },
+      {
+        "format_1915": ["http://edamontology.org/format_1929"],
+        "data_0006": ["http://edamontology.org/data_2976"]
+      }
+    ],
+    "taxonomyOperations": [
+      "http://edamontology.org/operation_3664",
+      "http://edamontology.org/operation_3767",
+      "http://edamontology.org/operation_3648",
+      "http://edamontology.org/operation_3644",
+      "http://edamontology.org/operation_3695"
+    ],
+
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/proteinprophet/proteinprophet.cwl"
+    },
+    "biotoolsID": "proteinprophet",
+    "label": "ProteinProphet",
+    "id": "ProteinProphet"
+}

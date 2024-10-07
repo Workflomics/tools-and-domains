@@ -107,7 +107,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/ProteinProphet/ProteinProphet.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/proteinprophet/proteinprophet.cwl"
       },
       "biotoolsID": "proteinprophet",
       "label": "ProteinProphet",

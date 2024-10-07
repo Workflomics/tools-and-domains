@@ -15,13 +15,13 @@ inputs:
     format: "http://edamontology.org/format_1929" # FASTA
 steps:
   Comet1:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/Comet/Comet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/comet/comet.cwl
     in:
       Comet_in_1: input1
       Comet_in_2: input2
     out: [Comet_out_1]
   PeptideProphet2:
-    run:  https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/PeptideProphet/PeptideProphet.cwl
+    run:  https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/peptideprophet/peptideprophet.cwl
     in:
       PeptideProphet_in_1: Comet1/Comet_out_1
       # Manual edit: PeptideProphet_in_2: input1

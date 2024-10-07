@@ -15,7 +15,7 @@ inputs:
     format: "http://edamontology.org/format_1929" # FASTA
 steps:
   Comet1:
-    run:  https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/Comet/Comet.cwl
+    run:  https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/comet/comet.cwl
     in:
       Comet_in_1: input1
       Comet_in_2: input2
@@ -33,13 +33,13 @@ steps:
       mzRecal_in_2: idconvert2/idconvert_out_1
     out: [mzRecal_out_1]
   Comet4:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/Comet/Comet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/comet/comet.cwl
     in:
       Comet_in_1: mzRecal3/mzRecal_out_1
       Comet_in_2: input2
     out: [Comet_out_1]
   PeptideProphet5:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/PeptideProphet/PeptideProphet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/peptideprophet/peptideprophet.cwl
     in:
       PeptideProphet_in_1: Comet4/Comet_out_1
        # Manual edit: PeptideProphet_in_2: mzRecal3/mzRecal_out_1

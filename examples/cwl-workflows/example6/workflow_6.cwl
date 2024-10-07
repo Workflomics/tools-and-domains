@@ -27,13 +27,13 @@ steps:
       mzRecal_in_2: XTandem1/XTandem_out_1
     out: [mzRecal_out_1]
   Comet3:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/Comet/Comet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/comet/comet.cwl
     in:
       Comet_in_1: mzRecal2/mzRecal_out_1
       Comet_in_2: input2
     out: [Comet_out_1]
   PeptideProphet4:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/PeptideProphet/PeptideProphet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/peptideprophet/peptideprophet.cwl
     in:
       PeptideProphet_in_1: Comet3/Comet_out_1
        # Manual edit: PeptideProphet_in_2: mzRecal3/mzRecal_out_1

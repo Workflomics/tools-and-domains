@@ -26,7 +26,7 @@ steps:
       idconvert_in_1: MS_Amanda_01/MS_Amanda_out_1
     out: [idconvert_out_1]
   PeptideProphet_03:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/PeptideProphet/PeptideProphet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/peptideprophet/peptideprophet.cwl
     in:
       PeptideProphet_in_1: idconvert_02/idconvert_out_1
       PeptideProphet_in_2: input_1

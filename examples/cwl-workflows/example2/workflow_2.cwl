@@ -37,7 +37,7 @@ steps:
       ProteinProphet_in_2: input2
     out: [ProteinProphet_out_1, ProteinProphet_out_2]
   StPeter4:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/StPeter/StPeter.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/stpeter/stpeter.cwl
     in:
       #StPeter_in_1: ProteinProphet3/ProteinProphet_out_1
       StPeter_in_1: ProteinProphet3/ProteinProphet_out_1

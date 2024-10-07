@@ -15,7 +15,7 @@ inputs:
     format: "http://edamontology.org/format_1929" # FASTA
 steps:
   MS_Amanda_01:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/MS_Amanda/MS_Amanda.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/ms_amanda/ms_amanda.cwl
     in:
       MS_Amanda_in_1: input_1
       MS_Amanda_in_2: input_2

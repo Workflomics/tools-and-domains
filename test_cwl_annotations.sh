@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This script runs the test scripts in the 'test' directory of each tool,
+# testing whether the CWL annotations pass as stand-alone workflow steps.
+# This requires `cwltool` and `docker` to be installed.
+
 # Set the base directory
 base_dir="cwl-tools"
 

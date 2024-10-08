@@ -25,4 +25,4 @@ jobs:
         run: pip install cwltool
 
       - name: Run tests
-        run: ./test.sh
+        run: ./test_cwl_annotations.sh

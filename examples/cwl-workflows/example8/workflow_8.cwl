@@ -15,7 +15,7 @@ inputs:
     format: "http://edamontology.org/format_1929" # FASTA
 steps:
   MS_Amanda_01:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/MS_Amanda/MS_Amanda.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/ms_amanda/ms_amanda.cwl
     in:
       MS_Amanda_in_1: input_1
       MS_Amanda_in_2: input_2
@@ -26,14 +26,14 @@ steps:
       idconvert_in_1: MS_Amanda_01/MS_Amanda_out_1
     out: [idconvert_out_1]
   PeptideProphet_03:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/PeptideProphet/PeptideProphet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/peptideprophet/peptideprophet.cwl
     in:
       PeptideProphet_in_1: idconvert_02/idconvert_out_1
       PeptideProphet_in_2: input_1
       PeptideProphet_in_3: input_2
     out: [PeptideProphet_out_1, PeptideProphet_out_2]
   ProteinProphet_04:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/ProteinProphet/ProteinProphet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/proteinprophet/proteinprophet.cwl
     in:
       ProteinProphet_in_1: PeptideProphet_03/PeptideProphet_out_1
       ProteinProphet_in_2: input_2

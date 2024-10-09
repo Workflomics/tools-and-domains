@@ -1,7 +1,7 @@
-cwlVersion: v1.0
+cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: "ProteinProphet"
-label: ProteinProphet.cwl
+label: proteinprophet
 requirements:
   DockerRequirement:
     dockerPull: spctools/tpp:version6.3.3

@@ -1,0 +1,28 @@
+[
+  {
+    "outputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3247"],
+        "data_0006": ["http://edamontology.org/data_0945"]
+      }
+    ],
+    "biotoolsID": "Sage-proteomics",
+    "inputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3244"],
+        "data_0006": ["http://edamontology.org/data_0943"]
+      },
+      {
+        "format_1915": ["http://edamontology.org/format_1929"],
+        "data_0006": ["http://edamontology.org/data_2976"]
+      }
+    ],
+    "taxonomyOperations": [
+      "http://edamontology.org/operation_3631",
+      "http://edamontology.org/operation_3633",
+      "http://edamontology.org/operation_2428"
+    ],
+    "label": "Sage",
+    "id": "Sage-proteomics"
+  }
+]

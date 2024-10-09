@@ -1,7 +1,7 @@
 cwlVersion: v1.0
 class: CommandLineTool
 baseCommand: "StPeter"
-label: StPeter.cwl
+label: stpeter
 requirements:
   DockerRequirement:
     dockerPull: spctools/tpp:version6.3.3

@@ -2,7 +2,7 @@
 
 cwlVersion: v1.0
 class: CommandLineTool
-label: mzRecal.cwl
+label: mzrecal
 requirements:
   DockerRequirement:
     dockerPull: workflomics/mzrecal:1.1.3

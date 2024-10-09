@@ -1,0 +1,36 @@
+{
+    "outputs": [
+      {
+        "format_1915": [
+          "http://edamontology.org/format_3603",
+          "http://edamontology.org/format_2330"
+        ],
+        "data_0006": ["http://edamontology.org/data_3754"]
+      }
+    ],
+    "inputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_2330"],
+        "data_0006": ["http://edamontology.org/data_2872"]
+      },
+      {
+        "format_1915": [
+          "http://edamontology.org/format_2196",
+          "http://edamontology.org/format_2197"
+        ],
+        "data_0006": ["http://edamontology.org/data_0582"]
+      },
+      {
+        "format_1915": ["http://edamontology.org/format_3475"],
+        "data_0006": ["http://edamontology.org/data_0916"]
+      }
+    ],
+    "taxonomyOperations": ["http://edamontology.org/operation_2436"],
+
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/goenrichment/goenrichment.cwl"
+    },
+    "biotoolsID": "goenrichment",
+    "label": "GOEnrichment",
+    "id": "GOEnrichment"
+  }

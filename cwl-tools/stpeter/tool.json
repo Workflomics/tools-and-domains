@@ -1,0 +1,37 @@
+[
+  {
+    "outputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3747"],
+        "data_0006": ["http://edamontology.org/data_0896"]
+      }
+    ],
+    "inputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3747"],
+        "data_0006": ["http://edamontology.org/data_0945"]
+      },
+      {
+        "format_1915": ["http://edamontology.org/format_3655"],
+        "data_0006": ["http://edamontology.org/data_0945"]
+      },
+      {
+        "format_1915": ["http://edamontology.org/format_3244"],
+        "data_0006": ["http://edamontology.org/data_0943"]
+      }
+    ],
+    "taxonomyOperations": [
+      "http://edamontology.org/operation_3637",
+      "http://edamontology.org/operation_3799",
+      "http://edamontology.org/operation_3630",
+      "http://edamontology.org/operation_3634"
+    ],
+
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/stpeter/stpeter.cwl"
+    },
+    "biotoolsID": "stpeter",
+    "label": "StPeter",
+    "id": "StPeter"
+  }
+]

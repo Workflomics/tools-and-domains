@@ -1,6 +1,7 @@
 cwlVersion: v1.0
 class: CommandLineTool
 baseCommand: ["bash"]
+label: gprofiler
 requirements:
   ShellCommandRequirement: {}
   InitialWorkDirRequirement:
@@ -15,7 +16,7 @@ inputs:
       position: 1
     default:
       class: File
-      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/gProfiler/gProfiler.sh
+      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/gprofiler/gprofiler.sh
   gProfiler_in_1:
     type: File
     doc: "Input file containing gene/query data"

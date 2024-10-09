@@ -3,7 +3,7 @@
 cwlVersion: v1.0
 class: CommandLineTool
 label: XTandem.cwl
-baseCommand: ["mkdir", "-p", "/tmp/XTandem"]
+baseCommand: ["mkdir", "-p", "/tmp/xtandem"]
 requirements:
   ShellCommandRequirement: {}
   DockerRequirement:
@@ -19,9 +19,9 @@ requirements:
       - entryname: fastaFile.fasta
         entry: $(inputs.XTandem_in_2)
 arguments:
-    - valueFrom:    "&& cp tandem.params taxonomy.xml mzmlFile.mzML fastaFile.fasta /tmp/XTandem && \
-                    tandem /tmp/XTandem/tandem.params && \
-                    Tandem2XML /tmp/XTandem/tandemFile.tandem > mzmlFile.pep.xml"
+    - valueFrom:    "&& cp tandem.params taxonomy.xml mzmlFile.mzML fastaFile.fasta /tmp/xtandem && \
+                    tandem /tmp/xtandem/tandem.params && \
+                    Tandem2XML /tmp/xtandem/tandemFile.tandem > mzmlFile.pep.xml"
       position: 1
       shellQuote: false
 inputs:
@@ -29,12 +29,12 @@ inputs:
     type: File
     default:
       class: File
-      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/docker/cwl/tools/XTandem/tandem.params
+      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/docker/cwl/tools/xtandem/tandem.params
   Taxonomy:
     type: File
     default:
       class: File
-      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/docker/cwl/tools/XTandem/taxonomy.xml
+      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/docker/cwl/tools/xtandem/taxonomy.xml
     
   XTandem_in_1:
     type: File

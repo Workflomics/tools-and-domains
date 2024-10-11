@@ -425,6 +425,20 @@
       "biotoolsID": "msfragger",
       "label": "MSFragger",
       "id": "MSFragger"
+    },
+    {
+        "outputs": [{
+            "format_1915": ["http://edamontology.org/format_3603"],
+            "data_0006": ["http://edamontology.org/data_2968"]
+        }],
+        "biotoolsID": "wcloud",
+        "inputs": [{
+            "format_1915": ["http://edamontology.org/format_2330"],
+            "data_0006": ["http://edamontology.org/data_2526"]
+        }],
+        "taxonomyOperations": ["http://edamontology.org/operation_0337"],
+        "label": "wcloud",
+        "id": "wcloud"
     }
   ]
 }

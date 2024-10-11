@@ -25,6 +25,5 @@ outputs:
     type: File
     format: "http://edamontology.org/format_3603" # PNG
     outputBinding:
-      prefix: --output
       glob: "output.png"
 

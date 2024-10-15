@@ -11,7 +11,7 @@ arguments:
 requirements:
   ShellCommandRequirement: {}
   DockerRequirement:
-    dockerPull: ghcr.io/lazear/sage:v0.14.7
+    dockerPull: workflomics/sage:latest
     dockerOutputDirectory: /data
   InitialWorkDirRequirement:
     listing:

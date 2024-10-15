@@ -427,50 +427,50 @@
       "id": "MSFragger"
     },
     {
-        "outputs": [
-          {
-            "format_1915": ["http://edamontology.org/format_3247"],
-            "data_0006": ["http://edamontology.org/data_0945"]
-          }
-        ],
-        "biotoolsID": "Sage-proteomics",
-        "inputs": [
-          {
-            "format_1915": ["http://edamontology.org/format_3244"],
-            "data_0006": ["http://edamontology.org/data_0943"]
-          },
-          {
-            "format_1915": ["http://edamontology.org/format_1929"],
-            "data_0006": ["http://edamontology.org/data_2976"]
-          }
-        ],
-        "taxonomyOperations": [
-          "http://edamontology.org/operation_3631",
-          "http://edamontology.org/operation_3633",
-          "http://edamontology.org/operation_2428"
-        ],
-        "implementation": {
-          "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/Sage-proteomics/Sage-proteomics.cwl"
+      "outputs": [
+        {
+          "format_1915": ["http://edamontology.org/format_3247"],
+          "data_0006": ["http://edamontology.org/data_0945"]
+        }
+      ],
+      "biotoolsID": "Sage-proteomics",
+      "inputs": [
+        {
+          "format_1915": ["http://edamontology.org/format_3244"],
+          "data_0006": ["http://edamontology.org/data_0943"]
         },
-        "label": "Sage",
-        "id": "Sage-proteomics"
+        {
+          "format_1915": ["http://edamontology.org/format_1929"],
+          "data_0006": ["http://edamontology.org/data_2976"]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3631",
+        "http://edamontology.org/operation_3633",
+        "http://edamontology.org/operation_2428"
+      ],
+      "implementation": {
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/Sage-proteomics/Sage-proteomics.cwl"
       },
-      {
-        "outputs": [{
-            "format_1915": ["http://edamontology.org/format_3603"],
-            "data_0006": ["http://edamontology.org/data_2968"]
-        }],
-        "biotoolsID": "wcloud",
-        "inputs": [{
-            "format_1915": ["http://edamontology.org/format_2330"],
-            "data_0006": ["http://edamontology.org/data_2526"]
-        }],
-        "implementation": {
-            "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/wcloud/wcloud.cwl"
-        },
-        "taxonomyOperations": ["http://edamontology.org/operation_0337"],
-        "label": "wcloud",
-        "id": "wcloud"
+      "label": "Sage",
+      "id": "Sage-proteomics"
+    },
+    {
+      "outputs": [{
+          "format_1915": ["http://edamontology.org/format_3603"],
+          "data_0006": ["http://edamontology.org/data_2968"]
+      }],
+      "biotoolsID": "wcloud",
+      "inputs": [{
+          "format_1915": ["http://edamontology.org/format_2330"],
+          "data_0006": ["http://edamontology.org/data_2526"]
+      }],
+      "implementation": {
+          "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/wcloud/wcloud.cwl"
+      },
+      "taxonomyOperations": ["http://edamontology.org/operation_0337"],
+      "label": "wcloud",
+      "id": "wcloud"
     }
   ]
 }

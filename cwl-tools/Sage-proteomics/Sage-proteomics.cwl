@@ -35,7 +35,7 @@ inputs:
       location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/Sage-proteomics/config.json
 
 outputs:
-  Sage_out:
+  Sage_out_1:
     type: File
     format: "http://edamontology.org/format_3247" # mzIdentML
     outputBinding:

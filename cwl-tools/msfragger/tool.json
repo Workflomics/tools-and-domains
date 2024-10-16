@@ -25,7 +25,7 @@
     ],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/msfragger/msfragger.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/msfragger/msfragger.cwl"
     },
     "biotoolsID": "msfragger",
     "label": "MSFragger",

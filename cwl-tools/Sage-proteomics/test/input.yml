@@ -1,8 +1,8 @@
 Sage_in_1:
   class: File
   format: http://edamontology.org/format_3244
-  path: https://raw.githubusercontent.com/Workflomics/DemoKit/refs/heads/main/data/inputs/small.mzML
+  path: https://raw.githubusercontent.com/Workflomics/DemoKit/main/data/inputs/small.mzML
 Sage_in_2:
   class: File
   format: http://edamontology.org/format_1929
-  path: https://raw.githubusercontent.com/Workflomics/DemoKit/refs/heads/main/data/inputs/small.fasta
+  path: https://raw.githubusercontent.com/Workflomics/DemoKit/main/data/inputs/small.fasta

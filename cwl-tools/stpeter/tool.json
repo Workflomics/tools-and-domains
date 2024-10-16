@@ -28,7 +28,7 @@
     ],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/stpeter/stpeter.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/stpeter/stpeter.cwl"
     },
     "biotoolsID": "stpeter",
     "label": "StPeter",

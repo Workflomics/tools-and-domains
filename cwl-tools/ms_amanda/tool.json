@@ -27,7 +27,7 @@
     ],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/ms_amanda/ms_amanda.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/ms_amanda/ms_amanda.cwl"
     },
     "biotoolsID": "ms_amanda",
     "label": "MS_Amanda",

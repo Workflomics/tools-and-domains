@@ -19,7 +19,7 @@
     "taxonomyOperations": ["http://edamontology.org/operation_3627"],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/mzrecal/mzrecal.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/mzrecal/mzrecal.cwl"
     },
     "biotoolsID": "mzrecal",
     "label": "mzRecal",

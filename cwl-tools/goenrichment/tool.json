@@ -28,7 +28,7 @@
     "taxonomyOperations": ["http://edamontology.org/operation_2436"],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/goenrichment/goenrichment.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/goenrichment/goenrichment.cwl"
     },
     "biotoolsID": "goenrichment",
     "label": "GOEnrichment",

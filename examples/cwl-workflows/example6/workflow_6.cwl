@@ -15,25 +15,25 @@ inputs:
     format: "http://edamontology.org/format_1929" # FASTA
 steps:
   XTandem1:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/xtandem/xtandem.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/xtandem/xtandem.cwl
     in:
       XTandem_in_1: input1
       XTandem_in_2: input2
     out: [XTandem_out_1]
   mzRecal2:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/mzrecal/mzrecal.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/mzrecal/mzrecal.cwl
     in:
       mzRecal_in_1: input1
       mzRecal_in_2: XTandem1/XTandem_out_1
     out: [mzRecal_out_1]
   Comet3:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/comet/comet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/comet/comet.cwl
     in:
       Comet_in_1: mzRecal2/mzRecal_out_1
       Comet_in_2: input2
     out: [Comet_out_1]
   PeptideProphet4:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/peptideprophet/peptideprophet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/peptideprophet/peptideprophet.cwl
     in:
       PeptideProphet_in_1: Comet3/Comet_out_1
        # Manual edit: PeptideProphet_in_2: mzRecal3/mzRecal_out_1
@@ -42,19 +42,19 @@ steps:
       PeptideProphet_in_3: input2
     out: [PeptideProphet_out_1]
   ProteinProphet5:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/proteinprophet/proteinprophet.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/proteinprophet/proteinprophet.cwl
     in:
       ProteinProphet_in_1: PeptideProphet4/PeptideProphet_out_1
       # Manual edit: ProteinProphet_in_2: input2
       ProteinProphet_in_2: input2
     out: [ProteinProphet_out_1]
   protXml2IdList6:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/protXml2IdList/protXml2IdList.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/protXml2IdList/protXml2IdList.cwl
     in:
       protXml2IdList_in_1: ProteinProphet5/ProteinProphet_out_1
     out: [protXml2IdList_out_1]
   gProfiler7:
-    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/gprofiler/gprofiler.cwl
+    run: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/gprofiler/gprofiler.cwl
     in:
       gProfiler_in_1: protXml2IdList6/protXml2IdList_out_1
     out: [gProfiler_out_1]

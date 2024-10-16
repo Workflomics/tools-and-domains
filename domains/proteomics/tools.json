@@ -32,7 +32,7 @@
       "taxonomyOperations": ["http://edamontology.org/operation_3646"],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/comet/comet.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/comet/comet.cwl"
       },
       "biotoolsID": "comet",
       "label": "Comet",
@@ -71,7 +71,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/peptideprophet/peptideprophet.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/peptideprophet/peptideprophet.cwl"
       },
       "biotoolsID": "peptideprophet",
       "label": "PeptideProphet",
@@ -107,7 +107,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/proteinprophet/proteinprophet.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/proteinprophet/proteinprophet.cwl"
       },
       "biotoolsID": "proteinprophet",
       "label": "ProteinProphet",
@@ -142,7 +142,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/stpeter/stpeter.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/stpeter/stpeter.cwl"
       },
       "biotoolsID": "stpeter",
       "label": "StPeter",
@@ -168,7 +168,7 @@
       "taxonomyOperations": ["http://edamontology.org/operation_3627"],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/mzrecal/mzrecal.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/mzrecal/mzrecal.cwl"
       },
       "biotoolsID": "mzrecal",
       "label": "mzRecal",
@@ -194,7 +194,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/idconvert/idconvert_to_pepXML.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/idconvert/idconvert_to_pepXML.cwl"
       },
       "biotoolsID": "idconvert",
       "label": "idconvert",
@@ -220,7 +220,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/idconvert/idconvert_to_mzIdentML.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/idconvert/idconvert_to_mzIdentML.cwl"
       },
       "biotoolsID": "idconvert",
       "label": "idconvert",
@@ -256,7 +256,7 @@
       "taxonomyOperations": ["http://edamontology.org/operation_2436"],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/goenrichment/goenrichment.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/goenrichment/goenrichment.cwl"
       },
       "biotoolsID": "goenrichment",
       "label": "GOEnrichment",
@@ -287,7 +287,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/gprofiler/gprofiler.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/gprofiler/gprofiler.cwl"
       },
       "biotoolsID": "gprofiler",
       "label": "gProfiler",
@@ -327,7 +327,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/xtandem/xtandem.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/xtandem/xtandem.cwl"
       },
       "biotoolsID": "xtandem",
       "label": "XTandem",
@@ -352,7 +352,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
       },
       "biotoolsID": "",
       "label": "protXml2IdList",
@@ -387,7 +387,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/ms_amanda/ms_amanda.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/ms_amanda/ms_amanda.cwl"
       },
       "biotoolsID": "ms_amanda",
       "label": "MS_Amanda",
@@ -420,7 +420,7 @@
       ],
 
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/msfragger/msfragger.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/msfragger/msfragger.cwl"
       },
       "biotoolsID": "msfragger",
       "label": "MSFragger",
@@ -450,7 +450,7 @@
         "http://edamontology.org/operation_2428"
       ],
       "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/Sage-proteomics/Sage-proteomics.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/Sage-proteomics/Sage-proteomics.cwl"
       },
       "label": "Sage",
       "id": "Sage-proteomics"
@@ -466,7 +466,7 @@
           "data_0006": ["http://edamontology.org/data_2526"]
       }],
       "implementation": {
-          "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/wcloud/wcloud.cwl"
+          "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/wcloud/wcloud.cwl"
       },
       "taxonomyOperations": ["http://edamontology.org/operation_0337"],
       "label": "wcloud",

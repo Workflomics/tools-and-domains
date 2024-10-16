@@ -30,7 +30,7 @@
     "taxonomyOperations": ["http://edamontology.org/operation_3646"],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/comet/comet.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/comet/comet.cwl"
     },
     "biotoolsID": "comet",
     "label": "Comet",

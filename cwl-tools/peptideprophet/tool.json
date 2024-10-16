@@ -32,7 +32,7 @@
     ],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/peptideprophet/peptideprophet.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/peptideprophet/peptideprophet.cwl"
     },
     "biotoolsID": "peptideprophet",
     "label": "PeptideProphet",

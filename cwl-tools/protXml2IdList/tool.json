@@ -17,7 +17,7 @@
     ],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
     },
     "biotoolsID": "",
     "label": "protXml2IdList",

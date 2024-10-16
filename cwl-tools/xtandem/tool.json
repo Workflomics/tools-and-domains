@@ -32,7 +32,7 @@
     ],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/xtandem/xtandem.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/xtandem/xtandem.cwl"
     },
     "biotoolsID": "xtandem",
     "label": "XTandem",

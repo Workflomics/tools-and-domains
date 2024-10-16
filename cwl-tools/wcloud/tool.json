@@ -9,7 +9,7 @@
         "data_0006": ["http://edamontology.org/data_2526"]
     }],
     "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/wcloud/wcloud.cwl"
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/wcloud/wcloud.cwl"
     },
     "taxonomyOperations": ["http://edamontology.org/operation_0337"],
     "label": "wcloud",

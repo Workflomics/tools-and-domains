@@ -18,7 +18,7 @@
     ],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/idconvert/idconvert_to_pepXML.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/idconvert/idconvert_to_pepXML.cwl"
     },
     "biotoolsID": "idconvert",
     "label": "idconvert",
@@ -44,7 +44,7 @@
     ],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/idconvert/idconvert_to_mzIdentML.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/idconvert/idconvert_to_mzIdentML.cwl"
     },
     "biotoolsID": "idconvert",
     "label": "idconvert",

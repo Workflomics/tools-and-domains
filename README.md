@@ -17,4 +17,4 @@ When using Workflomics web interface, workflows are referencing this repository 
 
 ## Testing
 
-To test the CWL annotations, run `test_cwl_annotations.cwl` in the repository root. This script runs the test scripts in the 'test' directory of each tool, testing whether the CWL annotations pass as stand-alone workflow steps. This requires `cwltool` and `docker` to be installed.
+To test the CWL annotations, run `test_cwl_annotations.sh` in the repository root. This script runs the test scripts in the 'test' directory of each tool, testing whether the CWL annotations pass as stand-alone workflow steps. This requires `cwltool` and `docker` to be installed.

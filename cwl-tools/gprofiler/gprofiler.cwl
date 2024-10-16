@@ -16,7 +16,7 @@ inputs:
       position: 1
     default:
       class: File
-      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/gprofiler/gprofiler.sh
+      location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/gprofiler/gProfiler.sh
   gProfiler_in_1:
     type: File
     doc: "Input file containing gene/query data"

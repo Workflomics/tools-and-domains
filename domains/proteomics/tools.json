@@ -463,7 +463,7 @@
       "biotoolsID": "wcloud",
       "inputs": [{
           "format_1915": ["http://edamontology.org/format_2330"],
-          "data_0006": ["http://edamontology.org/data_2526"]
+          "data_0006": ["http://edamontology.org/data_2872"]
       }],
       "implementation": {
           "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/wcloud/wcloud.cwl"
@@ -471,6 +471,23 @@
       "taxonomyOperations": ["http://edamontology.org/operation_0337"],
       "label": "wcloud",
       "id": "wcloud"
-    }
-  ]
+    },
+    {
+        "outputs": [{
+            "format_1915": ["http://edamontology.org/format_3603"],
+            "data_0006": ["http://edamontology.org/data_2968"]
+        }],
+        "biotoolsID": "word_cloud",
+        "inputs": [{
+            "format_1915": ["http://edamontology.org/format_2330"],
+            "data_0006": ["http://edamontology.org/data_2872"]
+        }],
+        "implementation": {
+            "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/word_cloud/word_cloud.cwl"
+        },
+        "taxonomyOperations": ["http://edamontology.org/operation_0337"],
+        "label": "word_cloud",
+        "id": "word_cloud"
+      }
+    ]
 }

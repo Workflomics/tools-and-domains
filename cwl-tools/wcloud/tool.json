@@ -6,7 +6,7 @@
     "biotoolsID": "wcloud",
     "inputs": [{
         "format_1915": ["http://edamontology.org/format_2330"],
-        "data_0006": ["http://edamontology.org/data_2526"]
+        "data_0006": ["http://edamontology.org/data_2872"]
     }],
     "implementation": {
         "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/wcloud/wcloud.cwl"

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><batch mzmine_version="4.3.0">
+    <batchstep method="io.github.mzmine.modules.io.import_rawdata_mzml.MSDKmzMLImportModule" parameter_version="1">
+        <parameter name="File names">
+            <file>/Users/zhaosizheng/Documents/workflomics_test/imzMLConverterTestData_1.mzML</file>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_adapchromatogrambuilder.ModularADAPChromatogramBuilderModule" parameter_version="1">
+        <parameter name="Raw data files" type="BATCH_LAST_FILES"/>
+        <parameter name="Scan filters" selected="true">
+            <parameter name="Scan number"/>
+            <parameter name="Base Filtering Integer"/>
+            <parameter name="Retention time"/>
+            <parameter name="Mobility"/>
+            <parameter name="MS level filter" selected="MS1, level = 1">1</parameter>
+            <parameter name="Scan definition"/>
+            <parameter name="Polarity">Any</parameter>
+            <parameter name="Spectrum type">ANY</parameter>
+        </parameter>
+        <parameter name="Minimum consecutive scans">5</parameter>
+        <parameter name="Minimum intensity for consecutive scans">0.0</parameter>
+        <parameter name="Minimum absolute height"/>
+        <parameter name="m/z tolerance (scan-to-scan)">
+            <absolutetolerance>0.002</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="Suffix">chromatograms</parameter>
+        <parameter name="Allow single scan chromatograms"/>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_massdetection.MassDetectionModule" parameter_version="1">
+        <parameter name="Raw data files" type="BATCH_LAST_FILES"/>
+        <parameter name="Scan filters" selected="true">
+            <parameter name="Scan number"/>
+            <parameter name="Base Filtering Integer"/>
+            <parameter name="Retention time"/>
+            <parameter name="Mobility"/>
+            <parameter name="MS level filter" selected="MS1, level = 1">1</parameter>
+            <parameter name="Scan definition"/>
+            <parameter name="Polarity">Any</parameter>
+            <parameter name="Spectrum type">ANY</parameter>
+        </parameter>
+        <parameter name="Scan types (IMS)">All scan types</parameter>
+        <parameter name="Denormalize fragment scans (traps)">false</parameter>
+        <parameter name="Mass detector" selected_item="Auto">
+            <module name="Factor of lowest signal">
+                <parameter name="Noise factor">2.5</parameter>
+            </module>
+            <module name="Auto">
+                <parameter name="Noise level">1000.0</parameter>
+            </module>
+            <module name="Centroid">
+                <parameter name="Noise level"/>
+            </module>
+            <module name="Exact mass">
+                <parameter name="Noise level"/>
+            </module>
+            <module name="Local maxima">
+                <parameter name="Noise level"/>
+            </module>
+            <module name="Recursive threshold">
+                <parameter name="Noise level"/>
+                <parameter name="Min m/z peak width"/>
+                <parameter name="Max m/z peak width"/>
+            </module>
+            <module name="Wavelet transform">
+                <parameter name="Noise level"/>
+                <parameter name="Scale level"/>
+                <parameter name="Wavelet window size (%)"/>
+            </module>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.id_lipidid.annotation_modules.LipidAnnotationModule" parameter_version="2">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Lipid classes">
+            <item>FA Free fatty acids</item>
+            <item>FA Oxidized fatty acids</item>
+            <item>FAHFA Fatty acid estolides</item>
+            <item>CAR Fatty acyl carnitines</item>
+            <item>NA N-Acyl glycine</item>
+            <item>MG Monoacylglycerols</item>
+            <item>MG Monoalkylglycerols</item>
+            <item>DG Diacylglycerols</item>
+            <item>DG Alkylacylglycerols</item>
+            <item>DG Dialkylglycerols</item>
+            <item>TG Triacylglycerols</item>
+            <item>TG Alkyldiacylglycerols</item>
+            <item>DGTS Diacylglyceroltrimethylhomoserin</item>
+            <item>LDGTS Monoacylglyceroltrimethylhomoserin</item>
+            <item>MGDG Monogalactosyldiacylglycerol</item>
+            <item>MGMG Monogalactosylmonoacylglycerol</item>
+            <item>DGDG Digalactosyldiacylglycerol</item>
+            <item>SQDG Sulfoquinovosyldiacylglycerols</item>
+            <item>SQMG Sulfoquinovosylmonoacylglycerols</item>
+            <item>PC Diacylglycerophosphocholines</item>
+            <item>PC Alkylacylglycerophosphocholines</item>
+            <item>PC Dialkylglycerophosphocholines</item>
+            <item>LPC Monoacylglycerophosphocholines</item>
+            <item>LPC Monoalkylglycerophosphocholines</item>
+            <item>PE Diacylglycerophosphoethanolamines</item>
+            <item>PE Alkylacylglycerophosphoethanolamines</item>
+            <item>PE Dialkylglycerophosphoethanolamines</item>
+            <item>LPE Monoacylglycerophosphoethanolamines</item>
+            <item>LPE Monoalkylglycerophosphoethanolamines</item>
+            <item>LNAPE N-acyl-lysophosphatidylethanolamine</item>
+            <item>PS Diacylglycerophosphoserines</item>
+            <item>PS Alkylacylglycerophosphoserines</item>
+            <item>LPS Monoacylglycerophosphoserines</item>
+            <item>LPS Monoalkylglycerophosphoserines</item>
+            <item>PG Diacylglycerophosphoglycerols</item>
+            <item>PG Alkylacylglycerophosphoglycerols</item>
+            <item>PG Dialkylglycerophosphoglycerols</item>
+            <item>LPG Monoacylglycerophosphoglycerols</item>
+            <item>LPG Monoalkylglycerophosphoglycerols</item>
+            <item>BMP Monoacylglycerophosphomonoradylglycerols</item>
+            <item>PI Diacylglycerophosphoinositols</item>
+            <item>PI Alkylacylglycerophosphoinositols</item>
+            <item>PI Dialkylglycerophosphoinositols</item>
+            <item>LPI Monoacylglycerophosphoinositols</item>
+            <item>LPI Monoalkylglycerophosphoinositols</item>
+            <item>PA Diacylglycerophosphates</item>
+            <item>PA Alkylacylglycerophosphates</item>
+            <item>LPA Monoacylglycerophosphates</item>
+            <item>LPA Monoalkylglycerophosphates</item>
+            <item>CL Diacylglycerophosphoglycerophosphodiradylglycerols</item>
+            <item>MLCL Diacylglycerophosphoglycerophosphomonoradylglycerols</item>
+            <item>DLCL Monoacylglycerophosphoglycerophosphomonoradylglycerols</item>
+            <item>SPB Sphingosines and Sphinganines</item>
+            <item>SPB Phytosphingosines and Phytosphinganines</item>
+            <item>Cer Ceramides and dihydroceramides hydroxy fatty acid</item>
+            <item>CerP Ceramide-1-phosphates</item>
+            <item>Cer N-acyl-4-hydroxysphinganines (phytoceramides)</item>
+            <item>Cer N-acylsphingosines (ceramides) and N-acylsphinganines (dihydroceramides)</item>
+            <item>Cer Phytoceramides hydroxy fatty acid</item>
+            <item>Hex2Cer Dihexosylceramides</item>
+            <item>Hex3Cer Trihexosylceramides</item>
+            <item>HexCer Hexosylceramides</item>
+            <item>HexCer Hexosylceramide hydroxy fatty acid</item>
+            <item>HexCer Hexosylceramide hydroxy fatty acid phytosphingosine</item>
+            <item>SM Ceramide Phosphocholines (Sphingomyelins)</item>
+            <item>SM Oxidized Ceramide Phosphocholines (Sphingomyelins)</item>
+            <item>CE Cholesterol esters</item>
+        </parameter>
+        <parameter name="Side chain parameters">
+            <parameter name="Minimum chain length">12</parameter>
+            <parameter name="Maximum chain length">26</parameter>
+            <parameter name="Minimum number of DBEs">0</parameter>
+            <parameter name="Maximum number of DBEs">6</parameter>
+            <parameter name="Only search for even chain length">false</parameter>
+        </parameter>
+        <parameter name="m/z tolerance MS1 level:">
+            <absolutetolerance>0.005</absolutetolerance>
+            <ppmtolerance>5.0</ppmtolerance>
+        </parameter>
+        <parameter name="Search for lipid class specific fragments in MS/MS spectra" selected="true">
+            <parameter name="m/z tolerance MS2 level:">
+                <absolutetolerance>0.005</absolutetolerance>
+                <ppmtolerance>10.0</ppmtolerance>
+            </parameter>
+            <parameter name="Explained intensity [%]:">0.6</parameter>
+            <parameter name="Keep unconfirmed annotations">false</parameter>
+        </parameter>
+        <parameter name="Search for custom lipid class" selected="false">
+            <parameter name="Custom lipid classes"/>
+        </parameter>
+        <parameter name="Advanced" selected="false">
+            <parameter name="Ions to ignore"/>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.id_spectral_library_match.SpectralLibrarySearchModule" parameter_version="2">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Spectral libraries" type="ALL_IMPORTED"/>
+        <parameter name="Scans for matching">MS level ≥ 2 (merged)</parameter>
+        <parameter name="Precursor m/z tolerance">
+            <absolutetolerance>0.001</absolutetolerance>
+            <ppmtolerance>5.0</ppmtolerance>
+        </parameter>
+        <parameter name="Spectral m/z tolerance">
+            <absolutetolerance>0.0015</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="Remove precursor">true</parameter>
+        <parameter name="Minimum  matched signals">4</parameter>
+        <parameter name="Similarity" selected_item="Weighted cosine similarity">
+            <module name="Weighted cosine similarity">
+                <parameter name="Weights">MassBank (mz^2 * I^0.5)</parameter>
+                <parameter name="Minimum  cos similarity">0.7</parameter>
+                <parameter name="Handle unmatched signals">KEEP ALL AND MATCH TO ZERO</parameter>
+            </module>
+            <module name="Composite cosine identity (e.g., GC-EI-MS; similar to NIST search)">
+                <parameter name="Weights">MassBank (mz^2 * I^0.5)</parameter>
+                <parameter name="Minimum  cos similarity">0.7</parameter>
+                <parameter name="Handle unmatched signals">KEEP ALL AND MATCH TO ZERO</parameter>
+            </module>
+        </parameter>
+        <parameter name="Advanced" selected="false">
+            <parameter name="Retention time tolerance" selected="false"/>
+            <parameter name="CCS tolerance [%]" selected="false">0.05</parameter>
+            <parameter name="13C deisotoping" selected="false">
+                <parameter name="m/z tolerance"/>
+                <parameter name="Monotonic shape">false</parameter>
+                <parameter name="Maximum charge"/>
+            </parameter>
+            <parameter name="Min matched isotope signals" selected="false">3</parameter>
+            <parameter name="Crop spectra to m/z overlap">false</parameter>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.io.export_features_all_speclib_matches.ExportAllIdsGraphicalModule" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Export directory"/>
+        <parameter name="Number of matches to export">1</parameter>
+        <parameter name="DPI scaling factor">4</parameter>
+        <parameter name="Export spectral library matches">true</parameter>
+        <parameter name="Export lipid matches">false</parameter>
+        <parameter name="Export shapes">false</parameter>
+        <parameter name="Export mobilograms">false</parameter>
+        <parameter name="Export feature images">false</parameter>
+        <parameter name="Export pdf">false</parameter>
+        <parameter name="Export png (⚠ freezes GUI)">true</parameter>
+        <parameter name="Chart export parameters">
+            <parameter name="Path">
+                <current_file>/</current_file>
+                <last_file>/</last_file>
+            </parameter>
+            <parameter name="Unit">CM</parameter>
+            <parameter name="Format">PNG</parameter>
+            <parameter name="Fixed size for">Chart</parameter>
+            <parameter name="Width">15.0</parameter>
+            <parameter name="Height" selected="true">8.0</parameter>
+            <parameter name="Resolution (dpi)">300.0</parameter>
+            <parameter name="Transparency">1.0</parameter>
+            <parameter name="Chart parameters">
+                <parameter name="Show title">true</parameter>
+                <parameter name="Change title" selected="false"/>
+                <parameter name="Show subtitle">true</parameter>
+                <parameter name="Show legends">true</parameter>
+                <parameter name="Change x" selected="false">x</parameter>
+                <parameter name="Change y" selected="false">y</parameter>
+                <parameter name="Data line width">1.0</parameter>
+                <parameter name="Background">1.0,1.0,1.0,1.0</parameter>
+                <parameter name="Master">
+                    <font>Arial,Regular,11.0</font>
+                    <color>0.0,0.0,0.0,1.0</color>
+                </parameter>
+                <parameter name="Title">
+                    <font>Arial Bold,Bold,11.0</font>
+                    <color>0.0,0.0,0.0,1.0</color>
+                </parameter>
+                <parameter name="Subtitles">
+                    <font>Arial Bold,Bold,11.0</font>
+                    <color>0.0,0.0,0.0,1.0</color>
+                </parameter>
+                <parameter name="Axis Labels">
+                    <font>Arial,Regular,9.0</font>
+                    <color>0.0,0.0,0.0,1.0</color>
+                </parameter>
+                <parameter name="Item Labels">
+                    <font>Arial,Regular,9.0</font>
+                    <color>0.0,0.0,0.0,1.0</color>
+                </parameter>
+                <parameter name="X grid" selected="false">0.0,0.0,0.0,1.0</parameter>
+                <parameter name="Y grid" selected="false">0.0,0.0,0.0,1.0</parameter>
+                <parameter name="Show x axis">true</parameter>
+                <parameter name="Show y axis">true</parameter>
+            </parameter>
+            <parameter name="Color palette" selected="1">
+                <palette name="Normal" negative_color="0xce1729ff" neutral_color="0x808080ff" positive_color="0x388e3cff">[0x000000ff, 0xe69f00ff, 0x56b4e9ff, 0x009e73ff, 0xf0e442ff, 0x0072b2ff, 0xd55e00ff, 0xbf2c84ff]</palette>
+                <palette name="Deuteranopia" negative_color="0xd55e00ff" neutral_color="0x808080ff" positive_color="0x0072b2ff">[0x000000ff, 0xe69f00ff, 0x56b4e9ff, 0x009e73ff, 0xf0e442ff, 0x0072b2ff, 0xd55e00ff, 0xbf2c84ff]</palette>
+                <palette name="Protanopia" negative_color="0xd55e00ff" neutral_color="0x808080ff" positive_color="0x0072b2ff">[0x000000ff, 0xe69f00ff, 0x56b4e9ff, 0xb38c70ff, 0xffd44dff, 0x0071aaff, 0x9c6727ff, 0x6583a3ff]</palette>
+                <palette name="Tritanopia" negative_color="0xd55e00ff" neutral_color="0x808080ff" positive_color="0x0072b2ff">[0x000000ff, 0xff8695ff, 0x00b7caff, 0x368d96ff, 0xffccd3ff, 0x007787ff, 0xea4761ff, 0xca7b84ff]</palette>
+            </parameter>
+        </parameter>
+    </batchstep>
+</batch>

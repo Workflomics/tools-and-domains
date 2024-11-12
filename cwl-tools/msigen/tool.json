@@ -1,0 +1,34 @@
+{"functions": [{
+    "outputs": [
+        {
+            "format_1915": [
+                "http://edamontology.org/format_3603",
+                "http://edamontology.org/format_3579",
+                "http://edamontology.org/format_3591"
+            ],
+            "data_0006": ["http://edamontology.org/data_2968"]
+        },
+        {
+            "format_1915": [
+                "http://edamontology.org/format_4003",
+                "http://edamontology.org/format_3752"
+            ],
+            "data_0006": ["http://edamontology.org/data_2048"]
+        }
+    ],
+    "biotoolsID": "msigen",
+    "inputs": [{
+        "format_1915": [
+            "http://edamontology.org/format_3682",
+            "http://edamontology.org/format_3712"
+        ],
+        "data_0006": ["http://edamontology.org/data_2536"]
+    }],
+    "taxonomyOperations": [
+        "http://edamontology.org/operation_0337",
+        "http://edamontology.org/operation_3443",
+        "http://edamontology.org/operation_3435"
+    ],
+    "label": "MSIGen",
+    "id": "msigen"
+}]}

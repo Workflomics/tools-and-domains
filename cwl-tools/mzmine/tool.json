@@ -1,0 +1,80 @@
+{"functions": [
+    {
+        "outputs": [{
+            "format_1915": [
+                "http://edamontology.org/format_3752",
+                "http://edamontology.org/format_2332",
+                "http://edamontology.org/format_3788",
+                "http://edamontology.org/format_3681"
+            ],
+            "data_0006": ["http://edamontology.org/data_0944"]
+        }],
+        "biotoolsID": "mzmine",
+        "inputs": [{
+            "format_1915": [
+                "http://edamontology.org/format_3650",
+                "http://edamontology.org/format_3244",
+                "http://edamontology.org/format_3712",
+                "http://edamontology.org/format_3654"
+            ],
+            "data_0006": ["http://edamontology.org/data_0943"]
+        }],
+        "taxonomyOperations": [
+            "http://edamontology.org/operation_3803",
+            "http://edamontology.org/operation_3435",
+            "http://edamontology.org/operation_3646",
+            "http://edamontology.org/operation_3629",
+            "http://edamontology.org/operation_3432",
+            "http://edamontology.org/operation_3695",
+            "http://edamontology.org/operation_3628",
+            "http://edamontology.org/operation_3215",
+            "http://edamontology.org/operation_3631"
+        ],
+        "label": "MZmine",
+        "id": "mzmine_op1"
+    },
+    {
+        "outputs": [
+            {
+                "format_1915": [
+                    "http://edamontology.org/format_3603",
+                    "http://edamontology.org/format_3604"
+                ],
+                "data_0006": ["http://edamontology.org/data_1636"]
+            },
+            {
+                "format_1915": [
+                    "http://edamontology.org/format_3603",
+                    "http://edamontology.org/format_3604"
+                ],
+                "data_0006": ["http://edamontology.org/data_2884"]
+            },
+            {
+                "format_1915": [
+                    "http://edamontology.org/format_3603",
+                    "http://edamontology.org/format_3604"
+                ],
+                "data_0006": ["http://edamontology.org/data_2968"]
+            }
+        ],
+        "biotoolsID": "mzmine",
+        "inputs": [{
+            "format_1915": [
+                "http://edamontology.org/format_3650",
+                "http://edamontology.org/format_3244",
+                "http://edamontology.org/format_3712",
+                "http://edamontology.org/format_3654"
+            ],
+            "data_0006": ["http://edamontology.org/data_0943"]
+        }],
+        "taxonomyOperations": [
+            "http://edamontology.org/operation_3203",
+            "http://edamontology.org/operation_3694",
+            "http://edamontology.org/operation_0570",
+            "http://edamontology.org/operation_3441",
+            "http://edamontology.org/operation_0531"
+        ],
+        "label": "MZmine",
+        "id": "mzmine_op2"
+    }
+]}

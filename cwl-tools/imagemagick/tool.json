@@ -1,0 +1,22 @@
+{"functions": [{
+    "outputs": [{
+        "format_1915": [
+            "http://edamontology.org/format_3579",
+            "http://edamontology.org/format_3603",
+            "http://edamontology.org/format_3752"
+        ],
+        "data_0006": ["http://edamontology.org/data_2968"]
+    }],
+    "biotoolsID": "imagemagick",
+    "inputs": [{
+        "format_1915": [
+            "http://edamontology.org/format_3579",
+            "http://edamontology.org/format_3727",
+            "http://edamontology.org/format_3752"
+        ],
+        "data_0006": ["http://edamontology.org/data_2968"]
+    }],
+    "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+    "label": "ImageMagick",
+    "id": "imagemagick"
+}]}

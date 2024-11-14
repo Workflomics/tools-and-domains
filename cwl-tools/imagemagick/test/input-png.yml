@@ -1,0 +1,4 @@
+magick_in_1:
+  class: File
+  format: http://edamontology.org/format_3603
+  path: https://raw.githubusercontent.com/Workflomics/DemoKit/refs/heads/main/data/inputs/msi-example.png

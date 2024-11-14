@@ -17,7 +17,7 @@ requirements:
 inputs:
   magick_in_1:
     type: File
-    format: "https://edamontology.github.io/edam-browser/format_3603"  # PNG
+    format: http://edamontology.org/format_3603  # PNG
     inputBinding:
       position: 1
       valueFrom: $(self.path)
@@ -25,6 +25,6 @@ inputs:
 outputs:
   magick_out_1: 
     type: File
-    format: "https://edamontology.github.io/edam-browser/format_3579"  # JPG
+    format: http://edamontology.org/format_3579  # JPG
     outputBinding:
       glob: "imagemagick_output.jpg"

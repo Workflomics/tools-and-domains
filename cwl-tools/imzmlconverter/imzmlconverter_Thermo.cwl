@@ -34,7 +34,7 @@ inputs:
 
   imzMLConverter_in_1:
     type: File
-    format: "http://edamontology.org/format_3710" # WIFF format
+    format: "http://edamontology.org/format_3712" # Thermo format
     inputBinding:
       position: 4
 

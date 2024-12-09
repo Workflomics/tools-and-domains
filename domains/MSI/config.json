@@ -23,11 +23,7 @@
   "inputs": [
     {
       "data_0006": ["data_2536"],
-      "format_1915": ["format_3682"]
-    },
-    {
-      "data_0006": ["data_0943"],
-      "format_1915": ["format_1929", "format_3858", "format_3710"]
+      "format_1915": ["format_3682", "format_3244", "format_3858", "format_3710"]
     }
   ],
   "outputs": [

@@ -14,7 +14,6 @@ requirements:
   
 $namespaces:
   edam: http://edamontology.org/
-  edam:data_0006: http://edamontology.org/data_0006
 
 intent:
   - http://edamontology.org/operation_3646 # Peptide database search

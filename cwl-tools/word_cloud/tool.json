@@ -6,7 +6,7 @@
     "biotoolsID": "word_cloud",
     "inputs": [{
         "format_1915": ["http://edamontology.org/format_2330"],
-        "data_0006": ["http://edamontology.org/data_2872"]
+        "data_0006": ["http://edamontology.org/data_0006"]
     }],
     "implementation": {
         "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/word_cloud/word_cloud.cwl"

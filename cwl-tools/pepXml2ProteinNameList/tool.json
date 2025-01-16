@@ -1,0 +1,24 @@
+{
+    "outputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_2330"],
+        "data_0006": ["http://edamontology.org/data_1009"]
+      }
+    ],
+    "inputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3655"],
+        "data_0006": ["http://edamontology.org/data_0945"]
+      }
+    ],
+    "taxonomyOperations": [
+      "http://edamontology.org/operation_3434"
+    ],
+
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
+    },
+    "biotoolsID": "",
+    "label": "pepXml2ProteinNameList",
+    "id": "pepXml2ProteinNameList"
+  }

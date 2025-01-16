@@ -7,13 +7,13 @@ requirements:
   ShellCommandRequirement: {}
   InitialWorkDirRequirement:
     listing:
-      - $(inputs.word_cloud_in_0)
+      - $(inputs.word_cloud_in_1)
   DockerRequirement:
     dockerPull: robmarissen/word_cloud:latest
 arguments: ["--min_word_length", "5", "--imagefile", "output.png", "--background", "white", "--width", "1200", "--height", "800"]
 
 inputs:
-  word_cloud_in_0:
+  word_cloud_in_1:
     type: File
     format: "http://edamontology.org/format_2330" # Textual format
     inputBinding:
@@ -21,7 +21,7 @@ inputs:
       valueFrom: $(self.basename)
 
 outputs:
-  word_cloud_out_0:
+  word_cloud_out_1:
     type: File
     format: "http://edamontology.org/format_3603" # PNG
     outputBinding:

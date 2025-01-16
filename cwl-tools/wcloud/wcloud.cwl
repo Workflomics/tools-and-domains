@@ -7,13 +7,13 @@ requirements:
   ShellCommandRequirement: {}
   InitialWorkDirRequirement:
     listing:
-      - $(inputs.wcloud_in_0)
+      - $(inputs.wcloud_in_1)
   DockerRequirement:
     dockerPull: robmarissen/wcloud:21aee44
 arguments: ["--output", "output.png", "--background-color", "white", "--width", "1200", "--height", "800"]
 
 inputs:
-  wcloud_in_0:
+  wcloud_in_1:
     type: File
     format: "http://edamontology.org/format_2330" # Textual format
     inputBinding:
@@ -21,7 +21,7 @@ inputs:
       valueFrom: $(self.basename)
 
 outputs:
-  wcloud_out_0:
+  wcloud_out_1:
     type: File
     format: "http://edamontology.org/format_3603" # PNG
     outputBinding:

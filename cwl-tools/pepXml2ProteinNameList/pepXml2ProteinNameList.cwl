@@ -2,7 +2,8 @@
 
 cwlVersion: v1.0
 class: CommandLineTool
-baseCommand: ["xmllint", "--xpath",  "//*[local-name()='search_hit'][@hit_rank = '"1"']/@protein_descr"]
+baseCommand: ["xmllint", "--xpath",  "//*[local-name()='search_hit'][@hit_rank = '\"1\"']/@protein_descr"]
+
 requirements:
   ShellCommandRequirement: {}
   DockerRequirement:

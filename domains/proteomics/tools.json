@@ -480,7 +480,7 @@
         "biotoolsID": "word_cloud",
         "inputs": [{
             "format_1915": ["http://edamontology.org/format_2330"],
-            "data_0006": ["http://edamontology.org/data_2872"]
+            "data_0006": ["http://edamontology.org/data_1009"]
         }],
         "implementation": {
             "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/word_cloud/word_cloud.cwl"
@@ -488,6 +488,30 @@
         "taxonomyOperations": ["http://edamontology.org/operation_0337"],
         "label": "word_cloud",
         "id": "word_cloud"
+      },
+      {
+        "outputs": [
+          {
+            "format_1915": ["http://edamontology.org/format_2330"],
+            "data_0006": ["http://edamontology.org/data_1009"]
+          }
+        ],
+        "inputs": [
+          {
+            "format_1915": ["http://edamontology.org/format_3655"],
+            "data_0006": ["http://edamontology.org/data_0945"]
+          }
+        ],
+        "taxonomyOperations": [
+          "http://edamontology.org/operation_3434"
+        ],
+    
+        "implementation": {
+          "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
+        },
+        "biotoolsID": "",
+        "label": "pepXML2ProteinNameList",
+        "id": "pepXML2ProteinNameList"
       }
     ]
 }

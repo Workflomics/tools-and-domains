@@ -16,7 +16,8 @@ $namespaces:
   edam: http://edamontology.org/
 
 intent:
-  - http://edamontology.org/operation_3646 # Peptide database search
+  - http://edamontology.org/operation_3646  # Peptide database search
+  - http://edamontology.org/operation_3631  # Peptide identification
     
 inputs:
   Params:

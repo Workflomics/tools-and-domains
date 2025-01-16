@@ -507,11 +507,11 @@
         ],
     
         "implementation": {
-          "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
+          "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/pepXml2ProteinNameList/pepXml2ProteinNameList.cwl"
         },
         "biotoolsID": "",
-        "label": "pepXML2ProteinNameList",
-        "id": "pepXML2ProteinNameList"
+        "label": "pepXml2ProteinNameList",
+        "id": "pepXml2ProteinNameList"
       }
     ]
 }

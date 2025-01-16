@@ -16,7 +16,7 @@
     ],
 
     "implementation": {
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/pepXml2ProteinNameList/pepXml2ProteinNameList.cwl"
     },
     "biotoolsID": "",
     "label": "pepXml2ProteinNameList",

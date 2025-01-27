@@ -168,7 +168,7 @@
           "http://edamontology.org/operation_3695"
       ],
       "label": "ProteinProphet",
-      "id": "proteinprophet"
+      "id": "ProteinProphet"
   },
   {
       "outputs": [{
@@ -192,7 +192,7 @@
           "http://edamontology.org/operation_3649"
       ],
       "label": "PeptideProphet",
-      "id": "peptideprophet"
+      "id": "PeptideProphet"
   },
   {
       "outputs": [{

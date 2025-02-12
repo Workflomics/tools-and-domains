@@ -5,7 +5,7 @@
   "dataDimensionsTaxonomyRoots": ["data_0006", "format_1915"],
   "tool_annotations_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/domains/proteomics/tools.json",
   "constraints_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/domains/proteomics/constraints.json",
-  "strict_tool_annotations": "false",
+  "strict_tool_annotations": "true",
   "timeout_sec": "120",
   "solutions_dir_path": ".",
   "solution_length": {

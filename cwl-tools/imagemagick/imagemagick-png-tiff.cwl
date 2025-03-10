@@ -20,11 +20,11 @@ inputs:
     format: http://edamontology.org/format_3603  # PNG
     inputBinding:
       position: 1
-      valueFrom: $(self.path)
+      valueFrom: $(self.basename)
 
 outputs:
   magick_out_1: 
     type: File
     format: http://edamontology.org/format_3752  # TIFF
     outputBinding:
-      glob: "imagemagick_output.tiff"
+      glob: "*.tiff"

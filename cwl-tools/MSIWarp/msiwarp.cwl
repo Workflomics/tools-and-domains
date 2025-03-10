@@ -1,13 +1,13 @@
 cwlVersion: v1.2
 class: CommandLineTool
-baseCommand: run_detect_peaks_imzml.R
-label: maldiquant_peaks_detection
+baseCommand: ["python3", "/user/local/bin/run_msiwarp_alignment.py"]
+label: msiwarp
 requirements:
   InitialWorkDirRequirement:
     listing:
       - $(inputs.maldiquant_in_1)
   DockerRequirement:
-    dockerPull: quay.io/biocontainers/r-maldiquant:1.18--r341ha44fe06_0
+    dockerPull: msiwarp_workflomics
 
 inputs:
   maldiquant_in_1:
@@ -17,9 +17,15 @@ inputs:
       position: 1
       prefix: --input
 
+  maldiquant_in_2: 
+    type: File?
+    inputBinding: 
+      position: 2
+      prefix: --config
+
 outputs:
   maldiquant_out_1:
     type: File
-    format: http://edamontology.org/format_2752  #csv
+    format: http://edamontology.org/format_3682  #imzml
     outputBinding:
-      glob: "*.csv"
+      glob: "*.imzml"

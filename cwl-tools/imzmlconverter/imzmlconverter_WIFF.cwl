@@ -20,18 +20,15 @@ inputs:
       calss: File 
       location : "/usr/local/imzmlconverter/imzMLConverter-2.1.1/jimzMLConverter-2.1.1.jar"
   
-  Data_type: 
-    type: string
-    inputBinding:
-      position: 2
-    default: imzML
-
   imzMLConverter_in_1:
     type: File
     format: "http://edamontology.org/format_3710" # WIFF format
     inputBinding:
       position: 3
 
+arguments: 
+    - valueFrom: "imzML"
+      position: 2
 outputs:
   imzMLConverter_out_1:
     type: File

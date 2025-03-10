@@ -3,7 +3,7 @@ class: CommandLineTool
 baseCommand: magick
 label: imagemagick
 arguments:
-  - valueFrom: "imagemagick_output.jpg"
+  - valueFrom: "$(inputs.magick_in_1.nameroot).jpg"
     position: 2
 requirements:
   ShellCommandRequirement: {}
@@ -20,11 +20,11 @@ inputs:
     format: http://edamontology.org/format_3603  # PNG
     inputBinding:
       position: 1
-      valueFrom: $(self.path)
+      valueFrom: $(self.basename)
 
 outputs:
   magick_out_1: 
     type: File
     format: http://edamontology.org/format_3579  # JPG
     outputBinding:
-      glob: "imagemagick_output.jpg"
+      glob: "*.jpg"

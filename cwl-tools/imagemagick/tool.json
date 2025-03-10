@@ -1,22 +1,126 @@
 {"functions": [{
     "outputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3579",
-            "http://edamontology.org/format_3603",
-            "http://edamontology.org/format_3752"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "biotoolsID": "imagemagick",
-    "inputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3579",
-            "http://edamontology.org/format_3727",
-            "http://edamontology.org/format_3752"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "taxonomyOperations": ["http://edamontology.org/operation_3434"],
-    "label": "ImageMagick",
-    "id": "imagemagick"
+      "format_1915": [
+          "http://edamontology.org/format_3603"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "biotoolsID": "imagemagick",
+  "inputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3579"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+  "implementation": {
+      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-jpg-png.cwl"
+    },
+  "label": "ImageMagick",
+  "id": "imagemagick-jpg-png"
+  },
+  {
+    "outputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3591"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "biotoolsID": "imagemagick",
+  "inputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3579"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+  "implementation": {
+      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-jpg-tiff.cwl"
+    },
+  "label": "ImageMagick",
+  "id": "imagemagick-jpg-tiff"
+  },
+  {
+    "outputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3579"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "biotoolsID": "imagemagick",
+  "inputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3603"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+  "implementation": {
+      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-png-jpg.cwl"
+    },
+  "label": "ImageMagick",
+  "id": "imagemagick-png-jpg"
+  },
+  {
+    "outputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3591"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "biotoolsID": "imagemagick",
+  "inputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3603"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+  "implementation": {
+      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-png-tiff.cwl"
+    },
+  "label": "ImageMagick",
+  "id": "imagemagick-png-tiff"
+  },
+  {
+    "outputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3579"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "biotoolsID": "imagemagick",
+  "inputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3591"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+  "implementation": {
+      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemaick-tiff-jpg.cwl"
+    },
+  "label": "ImageMagick",
+  "id": "imagemagick-tiff-jpg"
+  },
+  {
+    "outputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3603"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "biotoolsID": "imagemagick",
+  "inputs": [{
+      "format_1915": [
+          "http://edamontology.org/format_3591"
+      ],
+      "data_0006": ["http://edamontology.org/data_2968"]
+  }],
+  "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+  "implementation": {
+      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-tiff-png.cwl"
+    },
+  "label": "ImageMagick",
+  "id": "imagemagick-tiff-png"
 }]}

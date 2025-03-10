@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 # Install system dependencies (C++ build tools, cmake, git)
 RUN apt-get update && apt-get install -y \
@@ -13,10 +13,12 @@ RUN git clone --recursive https://github.com/horvatovichlab/MSIWarp.git /opt/MSI
 
 # Build and install MSIWarp
 WORKDIR /opt/MSIWarp
-RUN python3 setup.py install --user
+
+# RUN python setup.py install --user
 
 # Install additional Python packages
 RUN pip install pyimzml numpy matplotlib
+RUN pip install .
 
 # Copy the Python script and optional default config file
 COPY run_msiwarp_alignment.py /usr/local/bin/run_msiwarp_alignment.py

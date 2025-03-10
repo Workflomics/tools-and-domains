@@ -1,0 +1,4 @@
+msiwarp_in_1:
+  class: File
+  format: http://edamontology.org/format_3682
+  path: /Users/zhaosizheng/Documents/Workflomics/tools-and-domains/cwl-tools/MSIWarp

@@ -1,18 +1,18 @@
 cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: run_visualization_imzml.R
-label: maldiquant_visualization
+label: maldiquant
 requirements:
   InitialWorkDirRequirement:
     listing:
       - $(inputs.maldiquant_in_1)
   DockerRequirement:
-    dockerPull: quay.io/biocontainers/r-maldiquant:1.18--r341ha44fe06_0
+    dockerPull: workflomics/maldiquant:latest
 
 inputs:
   maldiquant_in_1:
     type: File
-    format: http://edamontology.org/format_3682  #imzml
+    format: "http://edamontology.org/format_3682"  #imzml
     inputBinding:
       position: 1
       prefix: --input
@@ -40,6 +40,6 @@ inputs:
 outputs:
   maldiquant_out_1:
     type: File
-    format: http://edamontology.org/format_3603  #png
+    format: "http://edamontology.org/format_3603"  #png
     outputBinding:
       glob: "*.png"

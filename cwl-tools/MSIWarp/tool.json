@@ -1,0 +1,17 @@
+{"functions": [{
+    "outputs": [{
+        "format_1915": ["http://edamontology.org/format_3682"],
+        "data_0006": ["http://edamontology.org/data_2536"]
+    }],
+    "biotoolsID": "msiwarp",
+    "inputs": [{
+        "format_1915": ["http://edamontology.org/format_3682"],
+        "data_0006": ["http://edamontology.org/data_2536"]
+    }],
+    "taxonomyOperations": ["http://edamontology.org/operation_2928"],
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/MSIWarp/msiwarp.cwl"
+    },
+    "label": "msiwarp",
+    "id": "msiwarp"
+}]}

@@ -12,7 +12,7 @@ requirements:
 inputs:
   msiwarp_in_1:
     type: File
-    format: http://edamontology.org/format_3682  #imzml
+    format: "http://edamontology.org/format_3682"  #imzml
     inputBinding:
       position: 1
       prefix: --input
@@ -26,6 +26,6 @@ inputs:
 outputs:
   msiwarp_out_1:
     type: File
-    format: http://edamontology.org/format_3682  #imzml
+    format: "http://edamontology.org/format_3682"  #imzml
     outputBinding:
       glob: "*.imzML"

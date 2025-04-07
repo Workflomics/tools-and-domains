@@ -14,9 +14,9 @@
   }],
   "taxonomyOperations": ["http://edamontology.org/operation_3434"],
   "implementation": {
-      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-jpg-png.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-jpg-png.cwl"
     },
-  "label": "ImageMagick",
+  "label": "imagemagick",
   "id": "imagemagick-jpg-png"
   },
   {
@@ -35,9 +35,9 @@
   }],
   "taxonomyOperations": ["http://edamontology.org/operation_3434"],
   "implementation": {
-      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-jpg-tiff.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-jpg-tiff.cwl"
     },
-  "label": "ImageMagick",
+  "label": "imagemagick",
   "id": "imagemagick-jpg-tiff"
   },
   {
@@ -56,9 +56,9 @@
   }],
   "taxonomyOperations": ["http://edamontology.org/operation_3434"],
   "implementation": {
-      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-png-jpg.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-png-jpg.cwl"
     },
-  "label": "ImageMagick",
+  "label": "imagemagick",
   "id": "imagemagick-png-jpg"
   },
   {
@@ -77,9 +77,9 @@
   }],
   "taxonomyOperations": ["http://edamontology.org/operation_3434"],
   "implementation": {
-      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-png-tiff.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-png-tiff.cwl"
     },
-  "label": "ImageMagick",
+  "label": "imagemagick",
   "id": "imagemagick-png-tiff"
   },
   {
@@ -98,9 +98,9 @@
   }],
   "taxonomyOperations": ["http://edamontology.org/operation_3434"],
   "implementation": {
-      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemaick-tiff-jpg.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-tiff-jpg.cwl"
     },
-  "label": "ImageMagick",
+  "label": "imagemagick",
   "id": "imagemagick-tiff-jpg"
   },
   {
@@ -119,8 +119,8 @@
   }],
   "taxonomyOperations": ["http://edamontology.org/operation_3434"],
   "implementation": {
-      "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-tiff-png.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-tiff-png.cwl"
     },
-  "label": "ImageMagick",
+  "label": "imagemagick",
   "id": "imagemagick-tiff-png"
 }]}

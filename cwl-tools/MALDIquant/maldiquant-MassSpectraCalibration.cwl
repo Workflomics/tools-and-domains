@@ -1,23 +1,23 @@
 cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: run_mass_spectra_calibration_imzml.R
-label: maldiquant_mass_spectra_calibration
+label: maldiquant
 requirements:
   InitialWorkDirRequirement:
     listing:
       - $(inputs.maldiquant_in_1)
   DockerRequirement:
-    dockerPull: quay.io/biocontainers/r-maldiquant:1.18--r341ha44fe06_0
+    dockerPull: workflomics/maldiquant:latest
 
 inputs:
   maldiquant_in_1:
     type: File
-    format: http://edamontology.org/format_3682  #imzml
+    format: "http://edamontology.org/format_3682"  #imzml
     inputBinding:
       position: 1
       prefix: --input
   
-  ref_mz_values: # question
+  ref_mz_values: 
     type: string
     inputBinding:
       position: 2
@@ -34,6 +34,6 @@ inputs:
 outputs:
   maldiquant_out_1:
     type: File
-    format: http://edamontology.org/format_3682  #imzml
+    format: "http://edamontology.org/format_3682"  #imzml
     outputBinding:
       glob: "*.csv"

@@ -1,0 +1,52 @@
+{"functions": [{
+    "outputs": [{
+        "format_1915": ["http://edamontology.org/format_3682"],
+        "data_0006": ["http://edamontology.org/data_2536"]
+    }],
+    "biotoolsID": "maldi_quant",
+    "inputs": [{
+        "format_1915": ["http://edamontology.org/format_3682"],
+        "data_0006": ["http://edamontology.org/data_2536"]
+    }],
+    "taxonomyOperations": ["http://edamontology.org/operation_3627"],
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/maldiquant/maldiquant-MassSpectraCalibration.cwl"
+    },
+    "label": "maldiquant",
+    "id": "maldiquant-massspectracalibration"
+},
+{
+    "outputs": [{
+        "format_1915": ["http://edamontology.org/format_3752"],
+        "data_0006": ["http://edamontology.org/data_2048"]
+    }],
+    "biotoolsID": "maldi_quant",
+    "inputs": [{
+        "format_1915": ["http://edamontology.org/format_3682"],
+        "data_0006": ["http://edamontology.org/data_2536"]
+    }],
+    "taxonomyOperations": ["http://edamontology.org/operation_3215"],
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/maldiquant/maldiquant-PeakDetection.cwl"
+    },
+    "label": "maldiquant",
+    "id": "maldiquant-peakdetection"
+},
+{
+    "outputs": [{
+        "format_1915": ["http://edamontology.org/format_3603"],
+        "data_0006": ["http://edamontology.org/data_2968"]
+    }],
+    "biotoolsID": "maldi_quant",
+    "inputs": [{
+        "format_1915": ["http://edamontology.org/format_3682"],
+        "data_0006": ["http://edamontology.org/data_2536"]
+    }],
+    "taxonomyOperations": ["http://edamontology.org/operation_0337"],
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/maldiquant/maldiquant-Visualization.cwl"
+    },
+    "label": "maldiquant",
+    "id": "maldiquant-visualization"
+}
+]}

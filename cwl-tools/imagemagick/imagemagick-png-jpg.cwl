@@ -11,13 +11,13 @@ requirements:
     listing:
       - $(inputs.magick_in_1)
   DockerRequirement:
-    dockerPull: my-imagemagick
+    dockerPull: workflomics/imagemagick:latest
   InlineJavascriptRequirement: {}
 
 inputs:
   magick_in_1:
     type: File
-    format: http://edamontology.org/format_3603  # PNG
+    format: "http://edamontology.org/format_3603"  # PNG
     inputBinding:
       position: 1
       valueFrom: $(self.basename)
@@ -25,6 +25,6 @@ inputs:
 outputs:
   magick_out_1: 
     type: File
-    format: http://edamontology.org/format_3579  # JPG
+    format: "http://edamontology.org/format_3579"  # JPG
     outputBinding:
       glob: "*.jpg"

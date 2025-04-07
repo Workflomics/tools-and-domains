@@ -1,285 +1,336 @@
 {
-  "functions": [
-    {
-      "outputs": [{
-        "format_1915": ["http://edamontology.org/format_3682"],
-        "data_0006": ["http://edamontology.org/data_2536"]
-    }],
-    "biotoolsID": "imzmlconverter",
-    "inputs": [{
-        "format_1915": ["http://edamontology.org/format_3858"],
-        "data_0006": ["http://edamontology.org/data_2536"]
-    }],
-    "taxonomyOperations": ["http://edamontology.org/operation_3434"],
-    "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imzmlconverter/imzmlconverter_Waters.cwl"
-      },
-    "label": "imzMLConverter",
-    "id": "imzmlconverter_Waters"
-    },
-    {
-      "outputs": [{
-        "format_1915": ["http://edamontology.org/format_3682"],
-        "data_0006": ["http://edamontology.org/data_2536"]
-    }],
-    "biotoolsID": "imzmlconverter",
-    "inputs": [{
-        "format_1915": ["http://edamontology.org/format_3710"],
-        "data_0006": ["http://edamontology.org/data_2536"]
-    }],
-    "taxonomyOperations": ["http://edamontology.org/operation_3434"],
-    "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imzmlconverter/imzmlconverter_WIFF.cwl"
-      },
-    "label": "imzMLConverter",
-    "id": "imzmlconverter_WIFF"
-    },
-    {
-      "outputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3603"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "biotoolsID": "imagemagick",
-    "inputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3579"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "taxonomyOperations": ["http://edamontology.org/operation_3434"],
-    "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-jpg-png.cwl"
-      },
-    "label": "ImageMagick",
-    "id": "imagemagick-jpg-png"
-    },
-    {
-      "outputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3591"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "biotoolsID": "imagemagick",
-    "inputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3579"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "taxonomyOperations": ["http://edamontology.org/operation_3434"],
-    "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-jpg-tiff.cwl"
-      },
-    "label": "ImageMagick",
-    "id": "imagemagick-jpg-tiff"
-    },
-    {
-      "outputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3579"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "biotoolsID": "imagemagick",
-    "inputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3603"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "taxonomyOperations": ["http://edamontology.org/operation_3434"],
-    "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-png-jpg.cwl"
-      },
-    "label": "ImageMagick",
-    "id": "imagemagick-png-jpg"
-    },
-    {
-      "outputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3591"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "biotoolsID": "imagemagick",
-    "inputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3603"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "taxonomyOperations": ["http://edamontology.org/operation_3434"],
-    "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-png-tiff.cwl"
-      },
-    "label": "ImageMagick",
-    "id": "imagemagick-png-tiff"
-    },
-    {
-      "outputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3579"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "biotoolsID": "imagemagick",
-    "inputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3591"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "taxonomyOperations": ["http://edamontology.org/operation_3434"],
-    "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemaick-tiff-jpg.cwl"
-      },
-    "label": "ImageMagick",
-    "id": "imagemagick-tiff-jpg"
-    },
-    {
-      "outputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3603"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "biotoolsID": "imagemagick",
-    "inputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3591"
-        ],
-        "data_0006": ["http://edamontology.org/data_2968"]
-    }],
-    "taxonomyOperations": ["http://edamontology.org/operation_3434"],
-    "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/imagemagick/imagemagick-tiff-png.cwl"
-      },
-    "label": "ImageMagick",
-    "id": "imagemagick-tiff-png"
-    },
-    {
-      "outputs": [
+    "functions": [
         {
-            "format_1915": [
-                "http://edamontology.org/format_3603",
-                "http://edamontology.org/format_3579",
-                "http://edamontology.org/format_3591"
+            "outputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3603"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
             ],
-            "data_0006": ["http://edamontology.org/data_2968"]
+            "biotoolsID": "imagemagick",
+            "inputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3579"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
+            ],
+            "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+            "implementation": {
+                "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-jpg-png.cwl"
+            },
+            "label": "imagemagick",
+            "id": "imagemagick-jpg-png"
         },
         {
-            "format_1915": [
-                "http://edamontology.org/format_4003",
-                "http://edamontology.org/format_3752"
+            "outputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3591"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
             ],
-            "data_0006": ["http://edamontology.org/data_2048"]
-        }
-    ],
-    "biotoolsID": "msigen",
-    "inputs": [{
-        "format_1915": [
-            "http://edamontology.org/format_3682",
-            "http://edamontology.org/format_3712"
-        ],
-        "data_0006": ["http://edamontology.org/data_2536"]
-    }],
-    "taxonomyOperations": [
-        "http://edamontology.org/operation_0337",
-        "http://edamontology.org/operation_3443",
-        "http://edamontology.org/operation_3435"
-    ],
-    "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/msigen"
-      },
-    "label": "MSIGen",
-    "id": "msigen"
-    }, 
-    {
-      "outputs": [{
-            "format_1915": [
-                "http://edamontology.org/format_3752",
-                "http://edamontology.org/format_2332",
-                "http://edamontology.org/format_3788",
-                "http://edamontology.org/format_3681"
+            "biotoolsID": "imagemagick",
+            "inputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3579"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
             ],
-            "data_0006": ["http://edamontology.org/data_0944"]
-        }],
-        "biotoolsID": "mzmine",
-        "inputs": [{
-            "format_1915": [
-                "http://edamontology.org/format_3650",
-                "http://edamontology.org/format_3244",
-                "http://edamontology.org/format_3712",
-                "http://edamontology.org/format_3654"
-            ],
-            "data_0006": ["http://edamontology.org/data_0943"]
-        }],
-        "taxonomyOperations": [
-            "http://edamontology.org/operation_3803",
-            "http://edamontology.org/operation_3435",
-            "http://edamontology.org/operation_3646",
-            "http://edamontology.org/operation_3629",
-            "http://edamontology.org/operation_3432",
-            "http://edamontology.org/operation_3695",
-            "http://edamontology.org/operation_3628",
-            "http://edamontology.org/operation_3215",
-            "http://edamontology.org/operation_3631"
-        ],
-        "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains/"
-      },
-        "label": "MZmine",
-        "id": "mzmine_op1"
-    },
-    {
-        "outputs": [
-            {
-                "format_1915": [
-                    "http://edamontology.org/format_3603",
-                    "http://edamontology.org/format_3604"
-                ],
-                "data_0006": ["http://edamontology.org/data_1636"]
+            "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+            "implementation": {
+                "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-jpg-tiff.cwl"
             },
-            {
-                "format_1915": [
-                    "http://edamontology.org/format_3603",
-                    "http://edamontology.org/format_3604"
-                ],
-                "data_0006": ["http://edamontology.org/data_2884"]
+            "label": "imagemagick",
+            "id": "imagemagick-jpg-tiff"
+        },
+        {
+            "outputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3579"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
+            ],
+            "biotoolsID": "imagemagick",
+            "inputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3603"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
+            ],
+            "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+            "implementation": {
+                "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-png-jpg.cwl"
             },
-            {
-                "format_1915": [
-                    "http://edamontology.org/format_3603",
-                    "http://edamontology.org/format_3604"
-                ],
+            "label": "imagemagick",
+            "id": "imagemagick-png-jpg"
+        },
+        {
+            "outputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3591"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
+            ],
+            "biotoolsID": "imagemagick",
+            "inputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3603"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
+            ],
+            "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+            "implementation": {
+                "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-png-tiff.cwl"
+            },
+            "label": "imagemagick",
+            "id": "imagemagick-png-tiff"
+        },
+        {
+            "outputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3579"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
+            ],
+            "biotoolsID": "imagemagick",
+            "inputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3591"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
+            ],
+            "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+            "implementation": {
+                "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-tiff-jpg.cwl"
+            },
+            "label": "imagemagick",
+            "id": "imagemagick-tiff-jpg"
+        },
+        {
+            "outputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3603"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
+            ],
+            "biotoolsID": "imagemagick",
+            "inputs": [
+                {
+                    "format_1915": ["http://edamontology.org/format_3591"],
+                    "data_0006": ["http://edamontology.org/data_2968"]
+                }
+            ],
+            "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+            "implementation": {
+                "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imagemagick/imagemagick-tiff-png.cwl"
+            },
+            "label": "imagemagick",
+            "id": "imagemagick-tiff-png"
+        }, 
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "biotoolsID": "imzmlconverter",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3712"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imzmlconverter/imzmlconverter_Thermo.cwl"
+            },
+            "label": "imzmlconverter",
+            "id": "imzmlconverter_Thermo"
+        },
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "biotoolsID": "imzmlconverter",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3858"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imzmlconverter/imzmlconverter_Waters.cwl"
+            },
+            "label": "imzmlconverter",
+            "id": "imzmlconverter_Waters"
+        },
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "biotoolsID": "imzmlconverter",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3858", 
+                                "http://edamontology.org/format_3710"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_3434"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/imzmlconverter/imzmlconverter_WIFF.cwl"
+            },
+            "label": "imzmlconverter",
+            "id": "imzmlconverter_WIFF"
+        }, 
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "biotoolsID": "maldi_quant",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_3627"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/maldiquant/maldiquant-MassSpectraCalibration.cwl"
+            },
+            "label": "maldiquant",
+            "id": "maldiquant-massspectracalibration"
+        },
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3752"],
+                "data_0006": ["http://edamontology.org/data_2048"]
+            }],
+            "biotoolsID": "maldi_quant",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_3215"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/maldiquant/maldiquant-PeakDetection.cwl"
+            },
+            "label": "maldiquant",
+            "id": "maldiquant-peakdetection"
+        },
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3603"],
                 "data_0006": ["http://edamontology.org/data_2968"]
-            }
-        ],
-        "biotoolsID": "mzmine",
-        "inputs": [{
-            "format_1915": [
-                "http://edamontology.org/format_3650",
-                "http://edamontology.org/format_3244",
-                "http://edamontology.org/format_3712",
-                "http://edamontology.org/format_3654"
-            ],
-            "data_0006": ["http://edamontology.org/data_0943"]
-        }],
-        "taxonomyOperations": [
-            "http://edamontology.org/operation_3203",
-            "http://edamontology.org/operation_3694",
-            "http://edamontology.org/operation_0570",
-            "http://edamontology.org/operation_3441",
-            "http://edamontology.org/operation_0531"
-        ],
-        "implementation": {
-        "cwl_reference": "/Users/zhaosizheng/Documents/Workflomics/tools-and-domains"
-      },
-        "label": "MZmine",
-        "id": "mzmine_op2"
-    }
-  ]
+            }],
+            "biotoolsID": "maldi_quant",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_0337"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/maldiquant/maldiquant-Visualization.cwl"
+            },
+            "label": "maldiquant",
+            "id": "maldiquant-visualization"
+        }, 
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "biotoolsID": "msiwarp",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_2928"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/MSIWarp/msiwarp.cwl"
+            },
+            "label": "msiwarp",
+            "id": "msiwarp"
+        }, 
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3752"],
+                "data_0006": ["http://edamontology.org/data_2048"]
+            }],
+            "biotoolsID": "masspix",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_3214"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/masspix/masspix-SpectralAnalysis.cwl"
+            },
+            "label": "masspix",
+            "id": "masspix-spectralanalysis"
+        },
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3752"],
+                "data_0006": ["http://edamontology.org/data_1270"]
+            }],
+            "biotoolsID": "masspix",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_3937"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/masspix/masspix-FeatureExtraction.cwl"
+            },
+            "label": "masspix",
+            "id": "masspix-featureextraction"
+        },
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3603"],
+                "data_0006": ["http://edamontology.org/data_2968"]
+            }],
+            "biotoolsID": "masspix",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3752"],
+                "data_0006": ["http://edamontology.org/data_1270"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_2939"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/masspix/masspix-PCA.cwl"
+            },
+            "label": "masspix",
+            "id": "masspix-pca"
+        },
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3603"],
+                "data_0006": ["http://edamontology.org/data_2968"]
+            }],
+            "biotoolsID": "masspix",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3752"],
+                "data_0006": ["http://edamontology.org/data_1270"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_3432"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/masspix/masspix-Clustering.cwl"
+            },
+            "label": "masspix",
+            "id": "masspix-clustering"
+        }, 
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "biotoolsID": "msi-r",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_2928"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/MSIWarp/msiwarp.cwl"
+            },
+            "label": "msir",
+            "id": "msir"
+        }
+
+    ]
 }

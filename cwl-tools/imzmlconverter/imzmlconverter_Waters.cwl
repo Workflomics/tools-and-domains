@@ -1,14 +1,14 @@
 cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: java
-label: imzMLConverter
+label: imzmlconverter
 requirements:
   ShellCommandRequirement: {}
   InitialWorkDirRequirement:
     listing:
       - $(inputs.imzMLConverter_in_1)
   DockerRequirement:
-    dockerPull: imzMLConverter
+    dockerPull: workflomics/imzMLConverter:latest
 
 inputs:
   Jar:

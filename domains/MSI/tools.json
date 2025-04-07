@@ -330,7 +330,23 @@
             },
             "label": "msir",
             "id": "msir"
+        }, 
+        {
+            "outputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "biotoolsID": "pym2aia",
+            "inputs": [{
+                "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }],
+            "taxonomyOperations": ["http://edamontology.org/operation_3435"],
+            "implementation": {
+              "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/msi/cwl-tools/pym2aia/pym2aia.cwl"
+            },
+            "label": "pym2aia",
+            "id": "pym2aia"
         }
-
     ]
 }

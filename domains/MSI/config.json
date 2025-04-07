@@ -3,7 +3,7 @@
   "ontologyPrefixIRI": "http://edamontology.org/",
   "toolsTaxonomyRoot": "operation_0004",
   "dataDimensionsTaxonomyRoots": ["data_0006", "format_1915"],
-  "tool_annotations_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/msi/domains/MSI/config.json",
+  "tool_annotations_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/msi/domains/MSI/tools.json",
   "constraints_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/msi/domains/MSI/constraints.json",
   "strict_tool_annotations": "true",
   "timeout_sec": "120",

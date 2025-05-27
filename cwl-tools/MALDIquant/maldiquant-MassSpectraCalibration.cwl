@@ -42,7 +42,7 @@ outputs:
     type: File
     format: "http://edamontology.org/format_3682"  #imzml
     outputBinding:
-      glob: "*.csv"
+      glob: "*.imzml"
 
   maldiquant_out_2:
     type: File

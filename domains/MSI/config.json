@@ -4,7 +4,7 @@
   "toolsTaxonomyRoot": "operation_0004",
   "dataDimensionsTaxonomyRoots": ["data_0006", "format_1915"],
   "tool_annotations_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/msi/domains/MSI/tools.json",
-  "constraints_path": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/msi/domains/MSI/constraints.json",
+  "constraints_path": "/Users/vedran/git/Workflomics_repo/tools-and-domains/domains/MSI/constraints.json",
   "strict_tool_annotations": "true",
   "timeout_sec": "120",
   "solutions_dir_path": ".",
@@ -23,7 +23,12 @@
   "inputs": [
     {
       "data_0006": ["data_2536"],
-      "format_1915": ["format_3682", "format_3839"]
+      "format_1915": ["format_3682"]
+    },
+    {
+
+      "data_0006": ["data_2536"],
+      "format_1915": ["format_3839"]
     }
   ],
   "outputs": [

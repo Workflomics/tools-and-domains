@@ -279,6 +279,10 @@
             "inputs": [{
                 "format_1915": ["http://edamontology.org/format_3682"],
                 "data_0006": ["http://edamontology.org/data_2536"]
+            }, 
+            {
+                "format_1915": ["http://edamontology.org/format_3839"],
+                "data_0006": ["http://edamontology.org/data_2536"]
             }],
             "taxonomyOperations": ["http://edamontology.org/operation_3214"],
             "implementation": {
@@ -295,6 +299,10 @@
             "biotoolsID": "masspix",
             "inputs": [{
                 "format_1915": ["http://edamontology.org/format_3682"],
+                "data_0006": ["http://edamontology.org/data_2536"]
+            }, 
+            {
+                "format_1915": ["http://edamontology.org/format_3839"],
                 "data_0006": ["http://edamontology.org/data_2536"]
             }],
             "taxonomyOperations": ["http://edamontology.org/operation_3937"],

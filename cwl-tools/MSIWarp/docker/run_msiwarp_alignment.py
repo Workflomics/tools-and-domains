@@ -83,10 +83,9 @@ def main():
     nodes = mx.initialize_nodes(node_mzs, node_deltas, n_steps)
     
     epsilon = config.get("epsilon", 1.0)
-    n_cores = config.get("n_cores", 1)
     
     print("Finding optimal warpings...")
-    optimal_moves = mx.find_optimal_spectra_warpings(spectra, reference_spectrum, nodes, epsilon, n_cores=n_cores)
+    optimal_moves = mx.find_optimal_spectra_warpings(spectra, reference_spectrum, nodes, epsilon)
     
     print("Warping spectra...")
     warped_spectra = [mx.warp_peaks(s, nodes, opt_move) for s, opt_move in zip(spectra, optimal_moves)]

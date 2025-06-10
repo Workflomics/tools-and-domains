@@ -29,8 +29,5 @@ RUN chmod +x /usr/local/bin/run_msiwarp_alignment.py
 # Ensure local user install path is in PATH
 ENV PATH="/root/.local/bin:${PATH}"
 
-# Set work directory
-WORKDIR /data
-
 # Default entrypoint
-ENTRYPOINT ["python3", "/usr/local/bin/run_msiwarp_alignment.py"]
+ENTRYPOINT ["python", "/usr/local/bin/run_msiwarp_alignment.py"]

@@ -7,6 +7,17 @@
             "operation_0004": ["operation_0004"]
           }
         ]
+      }, 
+      {
+        "constraintid": "itn_m",
+        "parameters": [
+          {
+            "operation_0004": ["Conversion"]
+          },
+          {
+            "operation_0004": ["Conversion"]
+          }
+        ]
       }
     ]
   }

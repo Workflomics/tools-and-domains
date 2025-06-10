@@ -11,9 +11,6 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Set working directory
-WORKDIR /imagemagick
-
 # Install necessary packages
 RUN wget https://www.imagemagick.org/download/ImageMagick.tar.gz && \
     tar xvzf ImageMagick.tar.gz && \

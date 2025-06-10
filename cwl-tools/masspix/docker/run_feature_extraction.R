@@ -18,4 +18,3 @@ image.ann <- cbind(ids, final.image[,2:ncol(final.image)])
 # Normalize
 image.norm <- normalise(imagedata.in=image.ann, norm.type, standards=NULL, offset=offset)
 write.csv(image.norm, "image.norm.csv", row.names=FALSE)
-write.csv(image.norm[,1:3], "image.norm_short.csv", row.names=FALSE)

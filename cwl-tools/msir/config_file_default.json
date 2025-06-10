@@ -1,0 +1,38 @@
+{
+    "name": "MSIR Mass Recalibration Configuration",
+    "description": "Configuration for MSI recalibration",
+    "version": "1.0",
+    
+    "recalibration_parameters": {
+      "bandwidth_density_estimation": 0.0005,
+      "tolerance_dalton": 0.01,
+      "local_tolerance_window": 0.002
+    },
+    
+    "parameter_descriptions": {
+      "bandwidth_density_estimation": "Bandwidth for density estimation of mass errors (st parameter). Controls smoothness of error distribution.",
+      "tolerance_dalton": "Tolerance in Daltons for calibrant hits generation (tl parameter). Must capture all possible mass shifts.",
+      "local_tolerance_window": "Tolerance window around most frequent mass error (lm parameter). Defines final calibration precision."
+    },
+    
+    "instrument_presets": {
+      "high_precision": {
+        "name": "High Precision (FT-ICR, Orbitrap)",
+        "bandwidth_density_estimation": 0.0005,
+        "tolerance_dalton": 0.01,
+        "local_tolerance_window": 0.002
+      },
+      "low_precision": {
+        "name": "Low Precision (rapifleX, MALDI-TOF)",
+        "bandwidth_density_estimation": 0.03,
+        "tolerance_dalton": 0.8,
+        "local_tolerance_window": 0.08
+      }
+    },
+    
+    "usage_notes": {
+      "data_requirements": "Centroided imzML with corresponding .ibd file",
+      "reference_file": "TXT file with internal calibrant masses (one per line)",
+      "algorithm": "RANSAC-based selection of endogenous biological signals"
+    }
+  }

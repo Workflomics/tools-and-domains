@@ -3,19 +3,19 @@ class: CommandLineTool
 baseCommand: magick
 label: imagemagick
 arguments:
-  - valueFrom: "$(inputs.magick_in_1.nameroot).tiff"
+  - valueFrom: "$(inputs.imagemagick_in_1.nameroot).tiff"
     position: 2
 requirements:
   ShellCommandRequirement: {}
   InitialWorkDirRequirement:
     listing:
-      - $(inputs.magick_in_1)
+      - $(inputs.imagemagick_in_1)
   DockerRequirement:
     dockerPull: workflomics/imagemagick:latest
   InlineJavascriptRequirement: {}
 
 inputs:
-  magick_in_1:
+  imagemagick_in_1:
     type: File
     format: "http://edamontology.org/format_3579"  # JPG
     inputBinding:
@@ -23,7 +23,7 @@ inputs:
       valueFrom: $(self.basename)
 
 outputs:
-  magick_out_1: 
+  imagemagick_out_1: 
     type: File
     format: "http://edamontology.org/format_3752"  # TIFF
     outputBinding:

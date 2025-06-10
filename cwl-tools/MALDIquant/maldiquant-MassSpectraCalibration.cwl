@@ -6,6 +6,7 @@ requirements:
   InitialWorkDirRequirement:
     listing:
       - $(inputs.maldiquant_in_1)
+      - $(inputs.maldiquant_in_2)
   DockerRequirement:
     dockerPull: workflomics/maldiquant:latest
 
@@ -16,9 +17,14 @@ inputs:
     inputBinding:
       position: 1
       prefix: --input
+
+  maldiquant_in_2:
+    type: File
+    format: "http://edamontology.org/format_3839"  #ibd
   
   ref_mz_values: 
     type: string
+    default: "369.35, 798.54, 885.55, 912.58"
     inputBinding:
       position: 2
       prefix: --ref_mz
@@ -37,3 +43,9 @@ outputs:
     format: "http://edamontology.org/format_3682"  #imzml
     outputBinding:
       glob: "*.csv"
+
+  maldiquant_out_2:
+    type: File
+    format: "http://edamontology.org/format_3839"  #ibd
+    outputBinding:
+      glob: "*.ibd"

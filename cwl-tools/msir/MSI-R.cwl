@@ -6,7 +6,8 @@ requirements:
   ShellCommandRequirement: {}
   InitialWorkDirRequirement:
     listing:
-      - $(inputs.magick_in_1)
+      - $(inputs.msir_in_1)
+      - $(inputs.msir_in_2)
   DockerRequirement:
     dockerPull: workflomics/msir:latest
   InlineJavascriptRequirement: {}
@@ -21,20 +22,20 @@ inputs:
 
   msir_in_2:
     type: File
-    format: "http://edamontology.org/format_3752"  # txt
+    format: "http://edamontology.org/format_3839"  # ibd
+
+  msir_in_3:
+    type: File
+    format: "http://edamontology.org/format_2330"  # txt
     inputBinding:
       position: 2
-      prefix: --i2
+      prefix: -i2
 
-arguments:
-  - prefix: -o
-    valueFrom: msir-recalibrated.imzML
-  - prefix: -st
-    valueFrom: "0.0005"
-  - prefix: -tl
-    valueFrom: "0.01"
-  - prefix: -lm
-    valueFrom: "0.002"
+  config_file:
+    type: File
+    default:
+      class: File
+      location: "https://raw.githubusercontent.com/Workflomics/tools-and-domains/msi/cwl-tools/msir/config_file_default.json"
 
 outputs:
   msir_out_1: 
@@ -42,3 +43,9 @@ outputs:
     format: "http://edamontology.org/format_3579"  # imzml
     outputBinding:
       glob: "*.imzML"
+
+  msir_out_2:
+    type: File
+    format: "http://edamontology.org/format_3839"  # ibd
+    outputBinding:
+      glob: "*.ibd"

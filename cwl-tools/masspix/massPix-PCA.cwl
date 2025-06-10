@@ -24,3 +24,9 @@ outputs:
     format: "http://edamontology.org/format_3603"  #png
     outputBinding:
       glob: "*.png"
+
+  masspix_out_2:
+    type: File
+    format: "http://edamontology.org/format_3752"  #csv
+    outputBinding:
+      glob: "*.csv"

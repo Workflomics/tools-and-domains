@@ -17,6 +17,10 @@ inputs:
       position: 1
       prefix: --input
 
+  masspix_in_2:
+    type: File
+    format: "http://edamontology.org/format_3839"  #ibd
+
 
 outputs:
   masspix_out_1:

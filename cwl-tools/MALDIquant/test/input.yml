@@ -1,0 +1,9 @@
+maldiquant_in_1:
+  class: File
+  format: "http://edamontology.org/format_3682"
+  path: 160TopL,130TopR,150BottomL,140BottomR-centroid.imzML
+
+maldiquant_in_2:
+  class: File
+  format: "http://edamontology.org/format_3839"
+  path : 160TopL,130TopR,150BottomL,140BottomR-centroid.ibd

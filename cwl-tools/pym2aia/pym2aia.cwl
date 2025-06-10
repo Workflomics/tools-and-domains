@@ -1,20 +1,24 @@
 cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: ["python3", "/usr/local/bin/m2aia_normalize.py"]
-label: m2aia
+label: pym2aia
 requirements:
   InitialWorkDirRequirement:
     listing:
-      - $(inputs.imzml_file)
+      - $(inputs.pym2aia_in_1)
   DockerRequirement:
-    dockerPull: workflomics/m2aia:latest
+    dockerPull: workflomics/pym2aia:latest
 
 inputs:
-  m2aia_in_1:
+  pym2aia_in_1:
     type: File
     format: "http://edamontology.org/format_3682"  # imzML
     inputBinding:
       prefix: -i
+  
+  pym2aia_in_2:
+    type: File
+    format: "http://edamontology.org/format_3839"  # ibd
 
 arguments:
   - prefix: -o
@@ -23,9 +27,15 @@ arguments:
     valueFrom: "tic"
 
 outputs:
-  m2aia_out_1:
+  pym2aia_out_1:
     type: File
     format: "http://edamontology.org/format_3682"
     outputBinding:
       glob: "*.imzML"
+
+  pym2aia_out_2: 
+    type: File
+    format: "http://edamontology.org/format_3839"
+    outputBinding:
+      glob: "*.ibd"
 

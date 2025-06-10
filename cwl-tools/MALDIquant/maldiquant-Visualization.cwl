@@ -1,13 +1,14 @@
 cwlVersion: v1.2
 class: CommandLineTool
-baseCommand: run_visualization_imzml.R
+baseCommand: [run_visualization_imzml.R]
 label: maldiquant
 requirements:
   InitialWorkDirRequirement:
     listing:
       - $(inputs.maldiquant_in_1)
+      - $(inputs.maldiquant_in_2)
   DockerRequirement:
-    dockerPull: workflomics/maldiquant:latest
+    dockerPull: maldiquant
 
 inputs:
   maldiquant_in_1:
@@ -17,8 +18,13 @@ inputs:
       position: 1
       prefix: --input
 
-  maldiquant_in_2: 
+  maldiquant_in_2:
+    type: File
+    format: "http://edamontology.org/format_3839"  #ibd
+
+  target_mz: 
     type: double 
+    default: 798.5
     inputBinding:
       position: 2
       prefix: --target_mz

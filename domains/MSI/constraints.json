@@ -18,6 +18,17 @@
             "operation_0004": ["operation_3434"]
           }
         ]
+      }, 
+      {
+        "constraintid": "connected_op",
+        "parameters": [
+          {
+            "operation_0004": ["operation_2928"]
+          },
+          { 
+            "operation_0004": ["operation_0004"]
+          }
+        ]
       }
     ]
   }

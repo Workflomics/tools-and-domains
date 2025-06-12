@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 # clustering_analysis.R
-# Performs clustering on image.norm.csv
+# Performs clustering on *.csv
 
 library(massPix)
 source("masspix_config.R")

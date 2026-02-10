@@ -1,0 +1,28 @@
+{
+  "type": "APE_ANNOTATION",
+  "outputs": [
+    {
+      "format_1915": ["http://edamontology.org/format_1929"],
+      "data_0006": ["http://edamontology.org/data_0925"]
+    }
+  ],
+  "inputs": [
+    {
+      "format_1915": ["http://edamontology.org/format_1929"],
+      "data_0006": ["http://edamontology.org/data_0925"]
+    },
+    {
+      "format_1915": ["http://edamontology.org/format_3475"],
+      "data_0006": ["http://edamontology.org/data_2048"]
+    }
+  ],
+  "taxonomyOperations": ["http://edamontology.org/operation_3798"],
+  "implementation": {
+    "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/MetaBAT_2/metabat2.cwl"
+  },
+  "biotoolsID": "MetaBAT_2",
+  "label": "MetaBAT2",
+  "id": "MetaBAT2"
+}
+
+

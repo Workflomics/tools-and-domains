@@ -1,0 +1,151 @@
+{
+  "functions": [
+    {
+      "type": "APE_ANNOTATION",
+      "outputs": [
+        {
+          "format_1915": ["http://edamontology.org/format_1930"],
+          "data_0006": ["http://edamontology.org/data_2044"]
+        },
+        {
+          "format_1915": ["http://edamontology.org/format_1930"],
+          "data_0006": ["http://edamontology.org/data_2044"]
+        },
+        {
+          "format_1915": ["http://edamontology.org/format_1930"],
+          "data_0006": ["http://edamontology.org/data_2044"]
+        },
+        {
+          "format_1915": ["http://edamontology.org/format_1930"],
+          "data_0006": ["http://edamontology.org/data_2044"]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": ["http://edamontology.org/format_1930"],
+          "data_0006": ["http://edamontology.org/data_2044"]
+        },
+        {
+          "format_1915": ["http://edamontology.org/format_1930"],
+          "data_0006": ["http://edamontology.org/data_2044"]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3192"
+      ],
+      "implementation": {
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/trimmomatic/trimmomatic.cwl"
+      },
+      "biotoolsID": "trimmomatic",
+      "label": "Trimmomatic",
+      "id": "Trimmomatic"
+    },
+    {
+      "type": "APE_ANNOTATION",
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2331",
+            "http://edamontology.org/format_3987"
+          ],
+          "data_0006": ["http://edamontology.org/data_2048"]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": ["http://edamontology.org/format_1930"],
+          "data_0006": ["http://edamontology.org/data_2044"]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3218"
+      ],
+      "implementation": {
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/fastqc/fastqc.cwl"
+      },
+      "biotoolsID": "fastqc",
+      "label": "FastQC",
+      "id": "FastQC"
+    },
+      {
+      "type": "APE_ANNOTATION",
+      "outputs": [
+        {
+          "format_1915": ["http://edamontology.org/format_1929"],
+          "data_0006": ["http://edamontology.org/data_0925"]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": ["http://edamontology.org/format_1930"],
+          "data_0006": ["http://edamontology.org/data_2044"]
+        },
+        {
+          "format_1915": ["http://edamontology.org/format_1930"],
+          "data_0006": ["http://edamontology.org/data_2044"]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0524"
+      ],
+      "implementation": {
+        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/megahit/megahit.cwl"
+      },
+      "biotoolsID": "megahit",
+      "label": "MEGAHIT",
+      "id": "MEGAHIT"
+    },
+    {
+    "type": "APE_ANNOTATION",
+    "outputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_1929"],
+        "data_0006": ["http://edamontology.org/data_0925"]
+      }
+    ],
+    "inputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_1929"],
+        "data_0006": ["http://edamontology.org/data_0925"]
+      },
+      {
+        "format_1915": ["http://edamontology.org/format_3475"],
+        "data_0006": ["http://edamontology.org/data_2048"]
+      }
+    ],
+    "taxonomyOperations": ["http://edamontology.org/operation_3798"],
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/MetaBAT_2/metabat2.cwl"
+    },
+    "biotoolsID": "MetaBAT_2",
+    "label": "MetaBAT2",
+    "id": "MetaBAT2"
+  },
+  {
+    "type": "APE_ANNOTATION",
+    "outputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_3475"],
+        "data_0006": ["http://edamontology.org/data_2048"]
+      }
+    ],
+    "inputs": [
+      {
+        "format_1915": ["http://edamontology.org/format_1929"],
+        "data_0006": ["http://edamontology.org/data_0925"]
+      }
+    ],
+    "taxonomyOperations": ["http://edamontology.org/operation_3180"],
+    "implementation": {
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/<YOUR-BRANCH>/cwl-tools/checkm/checkm.cwl"
+    },
+    "biotoolsID": "checkm",
+    "label": "CheckM",
+    "id": "CheckM"
+}
+
+  ]
+}
+
+
+

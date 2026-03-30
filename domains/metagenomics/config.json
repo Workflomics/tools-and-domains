@@ -1,0 +1,38 @@
+{
+  "ontology_path": "domains/edam.owl",
+  "ontologyPrefixIRI": "http://edamontology.org/",
+  "toolsTaxonomyRoot": "operation_0004",
+  "dataDimensionsTaxonomyRoots": ["data_0006", "format_1915"],
+
+  "tool_annotations_path": "domains/metagenomics/tools.json",
+  "constraints_path": "domains/metagenomics/constraints.json",
+
+  "strict_tool_annotations": true,
+  "timeout_sec": 120,
+
+  "solutions_dir_path": "domains/metagenomics/ape_solutions",
+  "number_of_execution_scripts": 1,
+  "number_of_cwl_files": 10,
+  "number_of_generated_graphs": 10,
+
+  "solution_length": { "min": 1, "max": 10 },
+  "solutions": 30,
+
+  "inputs": [
+    {
+      "data_0006": ["http://edamontology.org/data_2977"],
+      "format_1915": ["http://edamontology.org/format_1930"]
+    },
+    {
+      "data_0006": ["http://edamontology.org/data_2977"],
+      "format_1915": ["http://edamontology.org/format_1930"]
+    }
+  ],
+  "outputs": [
+    {
+      "data_0006": ["http://edamontology.org/data_0925"],
+      "format_1915": ["http://edamontology.org/format_1929"]
+    }
+  ]
+}
+

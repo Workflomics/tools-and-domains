@@ -1,0 +1,27 @@
+{
+  "type": "APE_ANNOTATION",
+  "outputs": [
+    {
+      "format_1915": ["http://edamontology.org/format_1929"],
+      "data_0006": ["http://edamontology.org/data_0925"]
+    }
+  ],
+  "inputs": [
+    {
+      "format_1915": ["http://edamontology.org/format_1930"],
+      "data_0006": ["http://edamontology.org/data_2044"]
+    },
+    {
+      "format_1915": ["http://edamontology.org/format_1930"],
+      "data_0006": ["http://edamontology.org/data_2044"]
+    }
+  ],
+  "taxonomyOperations": ["http://edamontology.org/operation_0524"],
+  "implementation": {
+    "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/main/cwl-tools/megahit/megahit.cwl"
+  },
+  "biotoolsID": "megahit",
+  "label": "MEGAHIT",
+  "id": "MEGAHIT"
+}
+

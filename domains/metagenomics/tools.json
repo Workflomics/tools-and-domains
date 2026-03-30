@@ -142,6 +142,61 @@
     "biotoolsID": "checkm",
     "label": "CheckM",
     "id": "CheckM"
+},
+{
+  "type": "APE_ANNOTATION",
+  "outputs": [
+    {
+      "format_1915": ["http://edamontology.org/format_2573"],
+      "data_0006": ["http://edamontology.org/data_0863"]
+    }
+  ],
+  "inputs": [
+    {
+      "format_1915": ["http://edamontology.org/format_1930"],
+      "data_0006": ["http://edamontology.org/data_2044"]
+    },
+    {
+      "format_1915": ["http://edamontology.org/format_1930"],
+      "data_0006": ["http://edamontology.org/data_2044"]
+    },
+    {
+      "format_1915": ["http://edamontology.org/format_1929"],
+      "data_0006": ["http://edamontology.org/data_0925"]
+    }
+  ],
+  "taxonomyOperations": ["http://edamontology.org/operation_3198"],
+  "implementation": {
+    "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/<YOUR-BRANCH>/cwl-tools/bowtie2/bowtie2.cwl"
+  },
+  "biotoolsID": "bowtie2",
+  "label": "Bowtie2",
+  "id": "Bowtie2"
+},
+{
+  "type": "APE_ANNOTATION",
+  "outputs": [
+    {
+      "format_1915": ["http://edamontology.org/format_2572"],
+      "data_0006": ["http://edamontology.org/data_0863"]
+    }
+  ],
+  "inputs": [
+    {
+      "format_1915": ["http://edamontology.org/format_2573"],
+      "data_0006": ["http://edamontology.org/data_0863"]
+    }
+  ],
+  "taxonomyOperations": [
+    "http://edamontology.org/operation_0335",
+    "http://edamontology.org/operation_3802"
+  ],
+  "implementation": {
+    "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/<YOUR-BRANCH>/cwl-tools/samtools/samtools_sort.cwl"
+  },
+  "biotoolsID": "samtools",
+  "label": "SAMtools sort",
+  "id": "SAMtoolsSort"
 }
 
   ]

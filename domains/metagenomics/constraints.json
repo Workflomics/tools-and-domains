@@ -1,13 +1,40 @@
 {
-    "constraints": [
-      {
-        "constraintid": "not_repeat_op",
-        "parameters": [
-          {
-            "operation_0004": ["operation_0004"]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "constraints": [
+    {
+      "constraintid": "not_repeat_op",
+      "parameters": [{ "operation_0004": ["operation_0004"] }]
+    },
+
+    {
+      "constraintid": "connected_op",
+      "parameters": [
+        { "operation_0004": ["MEGAHIT"] },
+        { "operation_0004": ["Bowtie2"] }
+      ]
+    },
+
+    {
+      "constraintid": "connected_op",
+      "parameters": [
+        { "operation_0004": ["Bowtie2"] },
+        { "operation_0004": ["SAMtoolsSort"] }
+      ]
+    },
+
+    {
+      "constraintid": "connected_op",
+      "parameters": [
+        { "operation_0004": ["MetaBAT2"] },
+        { "operation_0004": ["CheckM"] }
+      ]
+    },
+
+    {
+      "constraintid": "not_connected_op",
+      "parameters": [
+        { "operation_0004": ["MEGAHIT"] },
+        { "operation_0004": ["CheckM"] }
+      ]
+    }
+  ]
+}

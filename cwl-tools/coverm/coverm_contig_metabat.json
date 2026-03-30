@@ -1,0 +1,22 @@
+{
+  "type": "APE_ANNOTATION",
+  "outputs": [
+    {
+      "format_1915": ["http://edamontology.org/format_3475"],
+      "data_0006": ["http://edamontology.org/data_0867"]
+    }
+  ],
+  "inputs": [
+    {
+      "format_1915": ["http://edamontology.org/format_2572"],
+      "data_0006": ["http://edamontology.org/data_0863"]
+    }
+  ],
+  "taxonomyOperations": ["http://edamontology.org/operation_0335"],
+  "implementation": {
+    "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/<YOUR-BRANCH>/cwl-tools/coverm/coverm_contig_metabat.cwl"
+  },
+  "biotoolsID": "coverm",
+  "label": "CoverM contig (metabat depth)",
+  "id": "CoverMContigDepth"
+}
